@@ -39,7 +39,7 @@ body{
     width: 100%;
 }
 #problems{
-    display: block;
+    display: inline-block;
     position:static;
     height: 90%;
     width: 100%;}

@@ -38,8 +38,8 @@ body{
 #intro{
     display: block;
     position: static;
-    height: 400px;
-    max-height: 500px;
+    min-height: 500px;
+    height: 70vh;
     max-height: 80vh;
     width: 80%;
     padding-left: 10%;

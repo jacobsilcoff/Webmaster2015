@@ -38,7 +38,8 @@ body{
 #intro{
     display: block;
     position: static;
-    height: 90vh;
+    height: 80vh;
+    min-height: 300px;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
@@ -53,7 +54,8 @@ body{
 #problems{
     display: block;
     position: static;
-    height: 90vh;
+    height: 80vh;
+    min-height: 300px;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
@@ -62,7 +64,8 @@ body{
 #solutions{
     display: block;
    position: static;
-    height: 90vh;
+    height: 80vh;
+    min-height: 300px;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
@@ -71,7 +74,8 @@ body{
 #about{
     display: block;
     position: static;
-    height: 90vh;
+    height: 80vh;
+    min-height: 300px;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;

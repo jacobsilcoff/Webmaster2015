@@ -111,8 +111,6 @@ body{
     position: absolute;
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 60px;
-    margin-left: 60px;
     transform: rotate(-90deg);
     font-size: 36px;
     vertical-align: middle;

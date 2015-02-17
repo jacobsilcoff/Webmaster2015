@@ -108,7 +108,6 @@ body{
 
 .arrow{
     display: inline-block;
-    position: absolute;
     margin-top: auto;
     margin-bottom: auto;
     transform: rotate(-90deg);

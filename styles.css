@@ -102,6 +102,7 @@ body{
 .arrow{
     margin: auto;
     transform: rotate(-90deg);
+    vertical-align: bottom;
 }
 
 /*

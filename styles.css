@@ -71,6 +71,8 @@ body{
     padding-left: 10%;
     padding-right: 10%;
     overflow-y: auto;
+    text-align: center;
+    align-items: center;
 }
 #about{
     background-color: rgb(64,64,64);

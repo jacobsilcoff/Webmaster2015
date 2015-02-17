@@ -38,7 +38,7 @@ body{
 #intro{
     display: block;
     position: static;
-   min-height: 400px;
+    height: 400px;
     max-height: 500px;
     max-height: 80vh;
     width: 80%;

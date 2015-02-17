@@ -116,6 +116,10 @@ body{
     height: 110px;
     width: 93px;
 }
+.tv{
+    height: 110px;
+    width: 144px;
+}
 .arrow{
     display: inline-block;
     margin-top: auto;

@@ -67,7 +67,7 @@ body{
     display: block;
    position: static;
     min-height: 400px;
-    max-height: 800px;
+    height: 800px;
     max-height: 80vh;
     width: 80%;
     padding-left: 10%;

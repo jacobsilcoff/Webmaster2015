@@ -112,7 +112,10 @@ body{
     height: 110px;
     width: 144px;
 }
-
+.phone{
+    height: 110px;
+    width: 144px;
+}
 .arrow{
     display: inline-block;
     margin-top: auto;

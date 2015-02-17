@@ -59,11 +59,11 @@ body{
     width: 100%;
 }
 /*Assorted Styles*/
-.bodyLink{
+.bodylink{
     color: #000000;
     text-decoration: none;
 }
-.bodyLink:hover{
+.bodylink:hover{
     color: #474747;
 }
 #catchySomething{

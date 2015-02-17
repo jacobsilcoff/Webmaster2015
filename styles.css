@@ -40,23 +40,36 @@ body{
     position: static;
     height: 90vh;
     width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
 }
 #problems{
     display: block;
     position: static;
     height: 90vh;
-    width: 100%;}
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
+}
 #solutions{
     display: block;
    position: static;
     height: 90vh;
     width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
 }
 #about{
     display: block;
     position: static;
     height: 90vh;
     width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
 }
 /*Assorted Styles*/
 

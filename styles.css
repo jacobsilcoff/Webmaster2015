@@ -29,6 +29,32 @@ body{
 #siteLinks > *{
     padding-right: 50px;
 }
+
+/*Content*/
+#intro{
+    display: block;
+    position:static;
+    height: 90%;
+    width: 100%;
+}
+#problems{
+    display: block;
+    position:static;
+    height: 90%;
+    width: 100%;}
+#solutions{
+    display: block;
+    position:static;
+    height: 90%;
+    width: 100%;
+}
+#about{
+    display: block;
+    position:static;
+    height: 90%;
+    width: 100%;
+}
+/*Assorted Styles*/
 .bodyLink{
     color: #000000;
     text-decoration: none;

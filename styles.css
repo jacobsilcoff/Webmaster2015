@@ -43,6 +43,7 @@ body{
     padding-left: 10%;
     padding-right: 10%;
     overflow-y: auto;
+    text-align: center;
 }
 #problems{
     display: block;
@@ -74,8 +75,6 @@ body{
 /*Assorted Styles*/
 
 .subtitle{
-    margin-left: auto;
-    margin-right: auto;
     font-size: 24px;
 }
 .bodylink{

@@ -89,9 +89,13 @@ body{
 .bodylink:hover{
     color: purple;
 }
-.imgwaste{
-    height: 100px;
-    width: 100px;
+.battery{
+    height: 120px;
+    width: 30px;
+}
+.computer{
+    height: 90px;
+    width: 120px;
 }
 
 .arrow{

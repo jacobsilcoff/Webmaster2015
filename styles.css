@@ -91,7 +91,7 @@ body{
     line-height: 36px;
 }
 .bodylink{
-    color: #474747;
+    color: rgb(47,128,194);
     text-decoration: none;
 }
 .bodylink:hover{

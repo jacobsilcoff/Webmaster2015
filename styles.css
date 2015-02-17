@@ -105,7 +105,7 @@ body{
 }
 
 .arrow{
-    display: block;
+    display: inline-block;
     position: absolute;
     margin-top: auto;
     margin-bottom: auto;
@@ -113,6 +113,7 @@ body{
     margin-right: 30px;
     font-size: 36px;
     width: 36px;
+    vertical-align: middle;
 }
 
 /*

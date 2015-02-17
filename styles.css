@@ -45,6 +45,11 @@ body{
     overflow-y: auto;
     text-align: center;
 }
+#waste{
+    display: inline-block;
+    height: 30%;
+    width: 20%;
+}
 #problems{
     display: block;
     position: static;

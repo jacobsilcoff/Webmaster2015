@@ -50,8 +50,8 @@ body{
     width: 100%;
 }
 #about{
-   position: absolute;
-    position:static;
+    display: block;
+    position: absolute;
     height: 90%;
     width: 100%;
 }

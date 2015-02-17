@@ -37,24 +37,24 @@ body{
 /*Content*/
 #intro{
     display: block;
-    position: absolute;
+    position: static;
     height: 90vh;
     width: 100%;
 }
 #problems{
     display: inline-block;
-    position: absolute;
+    position: static;
     height: 90vh;
     width: 100%;}
 #solutions{
     display: block;
-   position: absolute;
+   position: static;
     height: 90vh;
     width: 100%;
 }
 #about{
     display: block;
-    position: absolute;
+    position: static;
     height: 90vh;
     width: 100%;
 }

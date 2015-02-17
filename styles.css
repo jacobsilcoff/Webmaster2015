@@ -92,6 +92,11 @@ body{
     font-size: 24px;
     line-height: 36px;
 }
+.centertitle{
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+}
 .bodylink{
     color: rgb(47,128,194);
     text-decoration: none;

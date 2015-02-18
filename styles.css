@@ -124,9 +124,13 @@ body{
 .battery{
     background-image: url("battery.png");
     background-size: 40px 120px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; 
     margin: auto;
-    height: 120px;
-    width: 40px;
+    display: inline-block;
+    height: 30%;
+    width: 20%;
 }
 .computer{
     background-image: url("computer.png");

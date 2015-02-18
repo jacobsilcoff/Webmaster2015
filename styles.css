@@ -6,6 +6,8 @@ body{
 }
 /*Menu*/
 #menuBar{
+    position: absolute;
+    top: 0;
     height: 100px;
     padding-left: 20px;
     background-color: rgb(64,64,64);

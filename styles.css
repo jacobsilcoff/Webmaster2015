@@ -23,11 +23,11 @@ body{
 #toMainSite:hover{
     background-color: #66C468;
 }
-#title, #siteLinks{
+#title, #sitelinks{
     position: absolute;
     left: 150px;
 }
-#siteLinks{
+#sitelinks{
     top: 100px;
 }
 .sitelink{

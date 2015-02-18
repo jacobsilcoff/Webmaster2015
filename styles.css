@@ -30,7 +30,7 @@ body{
 #siteLinks{
     top: 100px;
 }
-#siteLinks > *{
+.sitelink{
     padding-right: 50px;
 }
 

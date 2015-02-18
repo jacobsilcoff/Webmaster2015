@@ -53,18 +53,18 @@ body{
     margin-right: 50px;
     height: 50px;
     text-decoration: none;
-    color: lightgray;
+    color: rgb(47,128,194);
 }
 .sitelink1:hover{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
-    background-image: url("white.png");
+    background-image: url("linkblue.png");
     background-repeat: no-repeat;
     background-size: 100px 5px;
     background-position: center bottom;
     text-decoration: none;
-    color: lightgray;
+    color: rgb(47,128,194);
 }
 
 /*Content*/

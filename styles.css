@@ -28,6 +28,9 @@ body{
     height: 50px;
     margin-left: 150px;
 }
+.title{
+    font-size: 50px;
+}
 .sitelink{
     margin-right: 50px;
 }

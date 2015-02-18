@@ -113,8 +113,13 @@ body{
     color: rgb(47,128,194);
     text-decoration: none;
 }
+.bodylink:visited{
+    color: rgb(47,128,194);
+    text-decoration: none;
+}
 .bodylink:hover{
     color: purple;
+    text-decoration: none;
 }
 .battery{
     background-image: url("battery.png");

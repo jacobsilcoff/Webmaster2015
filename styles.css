@@ -107,14 +107,17 @@ body{
 .bodylink{
     color: rgb(47,128,194);
     text-decoration: none;
+    cursor: pointer;
 }
 .bodylink:visited{
     color: rgb(47,128,194);
     text-decoration: none;
+    cursor: pointer;
 }
 .bodylink:hover{
     color: purple;
     text-decoration: none;
+    cursor: pointer;
 }
 .linktext{
     display: inline-block;

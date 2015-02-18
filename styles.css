@@ -133,6 +133,7 @@ body{
     width: 20%;
 }
 .computer{
+    display: inline-block;
     background-image: url("computer.png");
     background-size: 144px 110px;
     height: 110px;
@@ -145,6 +146,7 @@ body{
     width: 144px;
 }
 .phone{
+    display: inline-block;
     background-image: url("phone.png");
     background-size: 93px 110px;
     margin: auto;
@@ -159,6 +161,7 @@ body{
     width: 93px;
 }
 .tv{
+    display: inline-block;
     background-image: url("tv.png");
     background-size: 144px 110px;
     height: 110px;

@@ -108,7 +108,7 @@ body{
     background-image: url("battery.png");
     background-size: 40px 120px;
     background-repeat: no-repeat;
-    background-position: 50% 50%
+    background-position: 50% 50%;
     height: 120px;
     width: 40px;
 }
@@ -128,7 +128,7 @@ body{
     background-image: url("phone.png");
     background-size: 93px 110px;
     background-repeat:no-repeat;
-    background-position:50% 50%
+    background-position:50% 50%;
     height: 110px;
     width: 93px;
 }
@@ -136,7 +136,7 @@ body{
     background-image: url("phone1.png");
     background-size: 93px 110px;
     background-repeat:no-repeat;
-    background-position:50% 50%
+    background-position:50% 50%;
     height: 110px;
     width: 93px;
 }

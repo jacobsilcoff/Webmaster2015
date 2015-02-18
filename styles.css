@@ -36,19 +36,11 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-#sitelink:hover{
-    position: static;
-    display: inline-block;
-    height: 50px;
-    margin-left: 150px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 .title{
     font-size: 40px;
     margin: 0px;
 }
-.sitelink1{
+.sitelink1, .sitelink2{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
@@ -63,6 +55,17 @@ body{
     background-repeat: no-repeat;
     background-size: 100px 5px;
     background-position: center bottom;
+    text-decoration: none;
+    color: rgb(47,128,243);
+}
+.sitelink2:hover{
+    display: inline-block;
+    margin-right: 50px;
+    height: 50px;
+    background-image: url("linkblue.png");
+    background-repeat: no-repeat;
+    background-size: 100px 5px;
+    background-position: center top;
     text-decoration: none;
     color: rgb(47,128,243);
 }
@@ -207,12 +210,3 @@ body{
     font-size: 36px;
     vertical-align: middle;
 }
-
-/*
-#editMe{
-    position:absolute;
-    top:50px;
-    left:50px;
-    margin:0px;
-    padding:0px;
-}*/

@@ -31,9 +31,12 @@ body{
     display: inline-block;
     height: 50px;
     margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .title{
     font-size: 40px;
+    margin: 0px;
 }
 .sitelink{
     margin-right: 50px;

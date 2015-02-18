@@ -48,8 +48,8 @@ body{
     color: rgb(47,128,194);
 }
 .sitelink2{
-    display: table-cell;
-   vertical-align: bottom;
+    display: inline-block;
+    padding-top: 26px;
     margin-right: 50px;
     height: 50px;
     text-decoration: none;
@@ -67,8 +67,8 @@ body{
     color: rgb(47,128,243);
 }
 .sitelink2:hover{
-    display: table-cell;
-   vertical-align: bottom;
+    display: inline-block;
+    padding-top: 26px;
     margin-right: 50px;
     height: 50px;
     background-image: url("linkblue.png");

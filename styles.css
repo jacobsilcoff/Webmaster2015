@@ -6,8 +6,8 @@ body{
 }
 /*Menu*/
 #menuBar{
-    padding: 20px;
     height: 100px;
+    padding-left: 20px;
     background-color: rgb(64,64,64);
 }
 #toMainSite{
@@ -25,10 +25,8 @@ body{
 }
 #title, #sitelinks{
     position: static;
+    height: 50px;
     margin-left: 150px;
-}
-#sitelinks{
-    top: 100px;
 }
 .sitelink{
     margin-right: 50px;

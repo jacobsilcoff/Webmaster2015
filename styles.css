@@ -45,7 +45,7 @@ body{
     text-align: center;
     align-items: center;
 }
-#problems, #probinfo, #solutions,{
+#problems, #probinfo, #solutions{
     display: block;
     position: static;
    min-height: 500px;

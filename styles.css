@@ -40,22 +40,14 @@ body{
     font-size: 40px;
     margin: 0px;
 }
-.sitelink1{
+.sitelink{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
     text-decoration: none;
     color: rgb(47,128,194);
 }
-.sitelink2{
-    display: inline-block;
-    padding-top: 26px;
-    margin-right: 50px;
-    height: 50px;
-    text-decoration: none;
-    color: rgb(47,128,194);
-}
-.sitelink1:hover{
+.sitelink:hover{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
@@ -66,19 +58,6 @@ body{
     text-decoration: none;
     color: rgb(47,128,243);
 }
-.sitelink2:hover{
-    display: inline-block;
-    padding-top: 26px;
-    margin-right: 50px;
-    height: 50px;
-    background-image: url("linkblue.png");
-    background-repeat: no-repeat;
-    background-size: 200px 5px;
-    background-position: center top;
-    text-decoration: none;
-    color: rgb(47,128,243);
-}
-
 /*Content*/
 #intro{
     display: block;

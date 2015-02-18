@@ -28,6 +28,7 @@ body{
 }
 #title, #sitelinks{
     position: static;
+    display: inline-block;
     height: 50px;
     margin-left: 150px;
 }

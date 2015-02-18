@@ -126,16 +126,14 @@ body{
 .phone{
     background-image: url("phone.png");
     background-size: 93px 110px;
-    background-repeat:no-repeat;
-    background-position:50% 50%;
+    margin: auto;
     height: 110px;
     width: 93px;
 }
 .phone:hover{
     background-image: url("phone1.png");
     background-size: 93px 110px;
-    background-repeat:no-repeat;
-    background-position:50% 50%;
+    margin: auto;
     height: 110px;
     width: 93px;
 }

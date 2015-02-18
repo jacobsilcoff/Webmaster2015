@@ -8,10 +8,10 @@ body{
 #menuBar{
     position: absolute;
     top: 0;
-    height: 115px;
+    height: 100px;
     width: 100%;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 15px;
     background-color: rgb(64,64,64);
     vertical-align: -15px;
 }

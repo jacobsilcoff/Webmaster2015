@@ -59,7 +59,7 @@ body{
     height: 50px;
     background-image: url("white.png");
     background-repeat: no-repeat;
-    background-size: 100px 10px;
+    background-size: 100px 5px;
     background-position: center bottom;
 }
 

@@ -45,34 +45,10 @@ body{
     text-align: center;
     align-items: center;
 }
-#problems{
+#problems, #probinfo, #solutions,{
     display: block;
     position: static;
    min-height: 500px;
-    max-height: 90vh;
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    overflow-y: auto;
-    text-align: center;
-    align-items: center;
-}
-#probinfo{
-    display: block;
-   position: static;
-    min-height: 500px;
-    max-height: 90vh;
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    overflow-y: auto;
-    text-align: center;
-    align-items: center;
-}
-#solutions{
-    display: block;
-   position: static;
-    min-height: 500px;
     max-height: 90vh;
     width: 80%;
     padding-left: 10%;

@@ -24,8 +24,8 @@ body{
     background-color: #66C468;
 }
 #title, #sitelinks{
-    position: absolute;
-    left: 150px;
+    position: static;
+    margin-left: 150px;
 }
 #sitelinks{
     top: 100px;

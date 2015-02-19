@@ -2,7 +2,7 @@
     background-image: url("ewastec1.jpg");
     background-repeat: repeat-y;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: scale;
 }
 .transparent{
     opacity: .15;

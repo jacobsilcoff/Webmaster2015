@@ -1,3 +1,9 @@
+.background{
+    background-image: url("ewastec1.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 100% 100%;
+}
 body{
     margin: 0;
     font-family: "Sans Pro", sans-serif;
@@ -88,12 +94,6 @@ body{
     overflow-y: auto;
     text-align: center;
     align-items: center;
-}
-.ewaste{
-    background-image: url("ewastec1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
 }
 #about{
     background-color: rgb(64,64,64);

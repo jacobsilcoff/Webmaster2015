@@ -4,6 +4,9 @@
     background-position: center;
     background-size: 100% 100%;
 }
+.transparent{
+    opacity: .15;
+}
 body{
     margin: 0;
     font-family: "Sans Pro", sans-serif;

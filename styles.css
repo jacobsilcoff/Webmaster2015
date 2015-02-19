@@ -5,6 +5,8 @@ body{
     height: 100%;
 }
 #background{
+    display: inline;
+    position: fixed;
     background-image: url("ewastec1.jpg");
     background-repeat: no-repeat;
     background-size: contain;

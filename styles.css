@@ -4,7 +4,7 @@ body{
     font-weight: lighter;
     height: 100%;
 }
-#background{
+.background{
     display: block;
     position: fixed;
     background-image: url("ewastec1.jpg");

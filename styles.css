@@ -2,7 +2,7 @@
     background-image: url("ewastec1.jpg");
     background-repeat: repeat-y;
     background-position: center;
-    background-size: scale;
+    background-size: contain;
 }
 body{
     margin: 0;

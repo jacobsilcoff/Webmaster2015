@@ -5,12 +5,13 @@ body{
     height: 100%;
 }
 #background{
-    display: inline;
+    display: block;
     position: fixed;
     background-image: url("ewastec1.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     z-index: -10;
 }
 /*Menu*/

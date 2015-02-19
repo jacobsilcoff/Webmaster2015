@@ -105,9 +105,9 @@ body{
 #problems{
     display: block;
     position: static;
-   min-height: 500px;
+   min-height: 700px;
    height: 700px;
-    max-height: 90vh;
+    max-height: 700px;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;

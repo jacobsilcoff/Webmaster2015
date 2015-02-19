@@ -84,8 +84,20 @@ body{
     text-align: center;
     align-items: center;
 }
-#problems, #probinfo, #solutions, #map, #bib{
+#probinfo, #solutions, #map, #bib{
     background-color: white;
+    display: block;
+    position: static;
+   min-height: 500px;
+    max-height: 90vh;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
+    text-align: center;
+    align-items: center;
+}
+#problems{
     display: block;
     position: static;
    min-height: 500px;

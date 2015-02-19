@@ -3,6 +3,7 @@
     background-repeat: repeat-y;
     background-position: center;
     background-size: contain;
+    height: 100vh;
 }
 body{
     margin: 0;

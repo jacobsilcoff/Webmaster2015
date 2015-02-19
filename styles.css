@@ -89,6 +89,11 @@ body{
     text-align: center;
     align-items: center;
 }
+#ewaste{
+    background-image: url("ewaste©1.png");
+    background-repeat: none;
+    background-position: center;
+}
 #about{
     background-color: rgb(64,64,64);
     display: block;

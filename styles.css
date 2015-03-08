@@ -6,7 +6,7 @@ body{
 }
 /*Menu*/
 #menuBar{
-    position: absolute;
+    position: static;
     top: 0;
     min-height: 100px;
     width: 100%;

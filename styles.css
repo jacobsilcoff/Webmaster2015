@@ -6,7 +6,7 @@ body{
 }
 /*Menu*/
 #menuBar{
-    position: static;
+    position: absolute;
     top: 0;
     min-height: 100px;
     width: 100%;
@@ -24,10 +24,12 @@ body{
 .othersite{;
     display: inline-block;
     margin-right: 50px;
-    height: 50px;
+    height: 100px;
+    width: 130px;
     margin-top: 0px;
     margin-bottom: 0px;
     text-decoration: none;
+    background-color: blue;
     color: rgb(47,128,194);
 }
 .othersite:hover{
@@ -42,7 +44,7 @@ body{
     color: rgb(47,128,243);
 }
 #title, #sitelinks{
-    position: static;
+    position: abs;
     display: inline-block;
     height: 50px;
     margin-top: 0px;

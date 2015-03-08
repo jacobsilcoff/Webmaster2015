@@ -38,6 +38,8 @@ body{
     height: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
+    text-decoration: none;
+    color: rgb(47,128,194);
 }
 .othersite:hover{
     display: inline-block;

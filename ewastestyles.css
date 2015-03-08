@@ -50,11 +50,8 @@ body{
     text-decoration: none;
     color: rgb(47,128,243);
 }
-#toMainSite:hover{
-    background-color: #66C468;
-}
 #title, #sitelinks{
-    position: static;
+    position: absolute;
     display: inline-block;
     height: 50px;
     margin-left: 150px;

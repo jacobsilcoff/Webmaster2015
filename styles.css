@@ -25,32 +25,25 @@ body{
     background-color: rgb(64,64,64);
     vertical-align: -15px;
 }
-#des{
-    text-align: center;
+.othersites{
     position: absolute;
-    background-color: #75E677;
+    display: inline-block;
     right: 0;
-    top: 1%;
-    width:90px;
-    height:80px;
-    padding: 10px;
-    border-radius: 50%;
-    margin-right: 35px;
+    margin-right: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-#ihstsa{
-  text-align: center;
-    position: absolute;
-    background-color: #75E677;
-    right: 10%;
-    top: 1%;
-    width:90px;
-    height:80px;
-    padding: 10px;
-    border-radius: 50%;
-    margin-right: 35px;  
-}
-#toMainSite:hover{
-    background-color: #66C468;
+.othersites:hover{
+    display: inline-block;
+    margin-right: 50px;
+    height: 50px;
+    background-image: url("linkblue.png");
+    background-repeat: no-repeat;
+    background-size: 200px 5px;
+    background-position: center bottom;
+    text-decoration: none;
+    color: rgb(47,128,243);
 }
 #title, #sitelinks{
     position: static;

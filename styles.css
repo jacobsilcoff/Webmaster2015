@@ -26,15 +26,19 @@ body{
     vertical-align: -15px;
 }
 .othersites{
-    position: absolute;
+    position: static;
     display: inline-block;
-    right: 0;
+    margin-right: 50px;
+}
+.othersite{
+    position: static;
+    display: inline-block;
     margin-right: 50px;
     height: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.othersites:hover{
+.othersite:hover{
     display: inline-block;
     margin-right: 50px;
     height: 50px;

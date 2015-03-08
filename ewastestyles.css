@@ -25,15 +25,30 @@ body{
     background-color: rgb(64,64,64);
     vertical-align: -15px;
 }
-#toMainSite{
-    text-align: center;
+#othersites{
     position: absolute;
-    background-color: #75E677;
-    width:90px;
-    height:80px;
-    padding: 10px;
-    border-radius: 50%;
-    margin-right: 35px;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    height: 115px;
+}
+.othersite{
+    position: relative;
+    display: inline-block;
+    height: 115px;
+    width: 132px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    background-color: blue;
+    color: rgb(47,128,194);
+}
+.othersite:hover{
+    position: relative;
+    height: 115px;
+    background-color: white;
+    width: 132px;
+    text-decoration: none;
+    color: rgb(47,128,243);
 }
 #toMainSite:hover{
     background-color: #66C468;

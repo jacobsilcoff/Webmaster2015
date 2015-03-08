@@ -3,8 +3,6 @@ body{
     font-family: "Sans Pro", sans-serif;
     font-weight: lighter;
     height: 100%;
-    max-width: 1600px;
-    margin: auto;
 }
 /*Menu*/
 #menuBar{

@@ -16,10 +16,10 @@ body{
     vertical-align: -15px;
 }
 #othersites{
-    position: relative;
-    left: calc(130% - 1500px);
+    position: absolute;
+    right: 0;
     display: inline-block;
-    height: calc(100% + 35px);
+    height: 115px;
 }
 .othersite{
     position: relative;

@@ -51,11 +51,10 @@ body{
     color: rgb(47,128,243);
 }
 #title, #sitelinks{
-    position: absolute;
+    position: static;
     display: inline-block;
     height: 50px;
-    left: 20%;
-    margin-left: 150px;
+    margin-left: 240px;
     margin-top: 0px;
     margin-bottom: 0px;
 }

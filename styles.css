@@ -1,14 +1,21 @@
+#iftoobig{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(64,64,64);;
+}
 body{
     margin: 0;
     font-family: "Sans Pro", sans-serif;
     font-weight: lighter;
     height: 100%;
+    max-width: 1600px;
+    margin: auto;
 }
 /*Menu*/
 #menuBar{
     position: static;
     top: 0;
-    height: 100px;
+    min-height: 100px;
     width: calc(100% - 20px);
     padding-left: 20px;
     padding-top: 15px;
@@ -22,7 +29,7 @@ body{
 }
 .othersite{
     position: relative;
-    right: -40%;
+    right: calc(100% - 20px);
     display: inline-block;
     margin-right: 50px;
     height: 50px;

@@ -1,9 +1,3 @@
-#iftoobig{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(64,64,64);
-    z-index: -999;
-}
 body{
     margin: 0;
     font-family: "Sans Pro", sans-serif;

@@ -17,7 +17,7 @@ body{
 }
 #othersites{
     position: relative;
-    left: calc(100% - 481px);
+    left: calc(130% - 1500px);
     display: inline-block;
     margin-right: 50px;
 }

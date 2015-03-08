@@ -25,7 +25,7 @@ body{
     background-color: rgb(64,64,64);
     vertical-align: -15px;
 }
-.othersites{
+#othersites{
     position: static;
     display: inline-block;
     margin-right: 50px;

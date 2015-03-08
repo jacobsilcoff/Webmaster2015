@@ -62,7 +62,7 @@ body{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
-    background-image: url("linkblue.png");
+    background-color: rgb(128,243,47);
     background-repeat: no-repeat;
     background-size: 200px 5px;
     background-position: center bottom;

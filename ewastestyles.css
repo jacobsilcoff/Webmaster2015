@@ -38,7 +38,7 @@ body{
     height: 115px;
     width: 132px;
     margin-bottom: 0px;
-    margin-right: 0px;
+    margin-right: -7px;
     text-decoration: none;
     background-color: blue;
     color: rgb(47,128,194);
@@ -55,7 +55,7 @@ body{
     position: static;
     display: inline-block;
     height: 50px;
-    margin-left: 240px;
+    margin-left: 247px;
     margin-top: 0px;
     margin-bottom: 0px;
 }

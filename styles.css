@@ -104,8 +104,14 @@ body{
     text-align: center;
     align-items: center;
 }
-.abouttext{
-    color: white;
+.lab{
+    display: inline-block;
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+}
+.lab:hover{
+    background-color: red;
 }
 #about{
     background-color: rgb(64,64,64);
@@ -118,6 +124,9 @@ body{
 }
 /*Assorted Styles*/
 
+.abouttext{
+    color: white;
+}
 .subtitle{
     text-align: justify;
     font-size: 24px;
@@ -147,73 +156,6 @@ body{
     display: inline-block;
     vertical-align: -151px;
     font-size: 20px;
-}
-.bre{
-    background-image: url("battery.png");
-    background-size: 40px 110px;
-    background-repeat: no-repeat;
-    background-position: center top; 
-    margin: auto;
-    display: inline-block;
-    height: 160px;
-    width: 144px;
-}
-.bre:hover{
-    background-image: url("battery.png");
-    background-size: 40px 110px;
-    background-repeat: no-repeat;
-    background-position: center top; 
-    margin: auto;
-    display: inline-block;
-    height: 160px;
-    width: 144px;
-}
-.cas{
-    display: inline-block;
-    background-image: url("computer.png");
-    background-size: 144px 110px;
-    background-repeat: no-repeat;
-    height: 160px;
-    width: 144px;
-}
-.cas:hover{
-    background-image: url("computer1.png");
-    background-size: 144px 110px;
-    background-repeat: no-repeat;
-    height: 160px;
-    width: 144px;
-}
-.kry{
-    display: inline-block;
-    background-image: url("phone.png");
-    background-size: 93px 110px;
-    background-repeat: no-repeat;
-    margin-right: 30px;
-    height: 160px;
-    width: 144px;
-}
-.kry:hover{
-    background-image: url("phone1.png");
-    background-size: 93px 110px;
-    background-repeat: no-repeat;
-    margin-right: 30px;
-    height: 160px;
-    width: 144px;
-}
-.sau{
-    display: inline-block;
-    background-image: url("tv.png");
-    background-size: 144px 110px;
-    background-repeat: no-repeat;
-    height: 160px;
-    width: 144px;
-}
-.sau:hover{
-    background-image: url("tv1.png");
-    background-size: 144px 110px;
-    background-repeat: no-repeat;
-    height: 160px;
-    width: 144px;
 }
 .arrow{
     display: inline-block;

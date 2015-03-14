@@ -102,6 +102,15 @@ body{
     padding-right: 10%;
     overflow-y: auto;
 }
+#labs{
+    background-color: white;
+    display: block;
+    position: static;
+   min-height: 500px;
+    max-height: 90vh;
+    width: 80%;
+    overflow-y: auto;
+}
 .lab{
     display: inline-bock;
     position: static;

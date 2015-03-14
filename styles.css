@@ -112,7 +112,7 @@ body{
     overflow-y: auto;
 }
 .lab{
-    display: inline-bock;
+    display: inline-block;
     position: static;
     background-color: blue;
     width: 49%;

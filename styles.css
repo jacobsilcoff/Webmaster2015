@@ -106,6 +106,7 @@ body{
 }
 .lab{
     display: inline-block;
+    position: static;
     background-color: blue;
     width: 50%;
     height: 50%;

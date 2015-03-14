@@ -124,7 +124,7 @@ body{
 .lab:hover{
     background-color: red;
 }
-#about, #labs, #classes,{
+#about, #labs, #classes{
     background-color: rgb(64,64,64);
     display: block;
     position: static;

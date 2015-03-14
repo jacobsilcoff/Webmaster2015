@@ -17,7 +17,7 @@ body{
 }
 #othersites{
     position: absolute;
-    right: 3;
+    right: 1px;
     top: 0;
     display: inline-block;
     height: 115px;

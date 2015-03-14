@@ -70,11 +70,12 @@ body{
     text-decoration: none;
     color: rgb(47,128,243);
 }
-.about{
+.heading{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
-    margin: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     text-decoration: none;
     font-size: 36px;
     color: lightgray;

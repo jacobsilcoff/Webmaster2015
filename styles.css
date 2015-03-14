@@ -118,7 +118,7 @@ body{
     background-color: blue;
     width: 49%;
     height: 230px;
-    margin: 0;
+    margin-left: 0;
 }
 .lab:hover{
     background-color: red;

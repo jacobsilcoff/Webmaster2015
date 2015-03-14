@@ -91,7 +91,7 @@ body{
     align-items: center;
     z-index: 0;
 }
-#classes, #teachers, #map, #bib{
+#map, #bib, #present{
     background-color: white;
     display: block;
     position: static;
@@ -102,7 +102,7 @@ body{
     padding-right: 10%;
     overflow-y: auto;
 }
-#labs{
+#present2{
     background-color: white;
     display: block;
     position: static;
@@ -124,16 +124,7 @@ body{
 .lab:hover{
     background-color: red;
 }
-#about{
-    background-color: rgb(64,64,64);
-    display: block;
-    position: static;
-    min-height: 50px;
-    max-height: 50px;
-    width: 100%;
-    overflow-y: auto;
-}
-#menu{
+#about, #labs, #classes,
     background-color: rgb(64,64,64);
     display: block;
     position: static;

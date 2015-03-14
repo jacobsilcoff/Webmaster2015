@@ -101,11 +101,9 @@ body{
     padding-left: 10%;
     padding-right: 10%;
     overflow-y: auto;
-    text-align: center;
-    align-items: center;
 }
 .lab{
-    display: inline-block;
+    display: inline-bock;
     position: static;
     background-color: blue;
     width: 50%;
@@ -159,7 +157,7 @@ body{
     font-size: 20px;
 }
 .arrow{
-    display: inline-block;
+    display: block;
     margin-top: auto;
     margin-bottom: auto;
     transform: rotate(-90deg);

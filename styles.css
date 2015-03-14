@@ -115,8 +115,9 @@ body{
     display: inline-bock;
     position: static;
     background-color: blue;
-    width: 50%;
-    height: 50%;
+    width: 49%;
+    height: 230px;
+    margin: 0;
 }
 .lab:hover{
     background-color: red;

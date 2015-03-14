@@ -84,10 +84,9 @@ body{
     display: block;
     position: static;
     width: 80%;
-    height: 70%;
+    height: 70vh;
     padding-left: 10%;
     padding-right: 10%;
-    overflow-y: auto;
     text-align: center;
     align-items: center;
     z-index: 0;

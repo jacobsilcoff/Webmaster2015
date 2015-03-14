@@ -246,38 +246,3 @@ body{
     font-size: 36px;
     vertical-align: middle;
 }
-
-*{
-    position:absolute;
-}
-a {
-    position: relative;
-}
-h1 {
-    opacity:.5;
-    -ms-transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-}
-.mainSection {
-    height: 300px;
-    width: 500px;
-    left: 0px;
-    z-index: 0;
-}
-#reuse {
-    top:0px;
-    background-color:#8FBC8F;
-}
-#recycle {
-    top:300px;
-    background-color:#48D1CC;
-}
-#reuseTitle {
-    top:90px;
-    left:-30px;
-}
-#recycleTitle {
-    left: -55px;
-    top:100px;
-}

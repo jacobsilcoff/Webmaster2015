@@ -1,3 +1,4 @@
+<a class="sitelink" href="#e11">E11</a>
 body{
     margin: 0;
     font-family: "Sans Pro", sans-serif;
@@ -79,12 +80,24 @@ body{
     color: lightgray;
 }
 /*Content*/
-
-#intro #map, #bib, #present{
+#intro{
     background-color: white;
     display: block;
     position: static;
-    min-height: 600px;
+    width: 80%;
+    height: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
+    text-align: center;
+    align-items: center;
+    z-index: 0;
+}
+#map, #bib, #present{
+    background-color: white;
+    display: block;
+    position: static;
+    min-height: 500px;
     max-height: 90vh;
     width: 80%;
     padding-left: 10%;
@@ -100,7 +113,7 @@ body{
     width: 100%;
     overflow-y: auto;
     text-align: center;
-    align-items: center: 
+    align-items: 
 }
 .lab{
     display: inline-block;

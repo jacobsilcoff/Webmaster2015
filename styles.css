@@ -91,7 +91,7 @@ body{
     align-items: center;
     z-index: 0;
 }
-#classes, #labs, #teachers, #map, #bib{
+#classes, #teachers, #map, #bib{
     background-color: white;
     display: block;
     position: static;

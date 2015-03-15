@@ -175,3 +175,6 @@ body{
     font-size: 36px;
     vertical-align: middle;
 }
+.nodisplay{
+    display: none;
+}

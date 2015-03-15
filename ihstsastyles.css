@@ -90,7 +90,7 @@ body{
     align-items: center;
     z-index: 0;
 }
-#Activities, #Officers, #map, #bib{
+#activities, #officers, #map, #bib{
     background-color: white;
     display: block;
     position: static;

@@ -98,7 +98,7 @@ body{
     background-color: white;
     display: block;
     position: static;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 50px);
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;

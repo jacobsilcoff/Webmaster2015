@@ -183,17 +183,6 @@ body{
 }
  
 /*----- Menu Outline -----*/
-.menu-wrap {
-    width:100%;
-    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-    background:#3e3436;
-}
- 
-.menu {
-    width:1000px;
-    margin:0px auto;
-}
- 
 .menu li {
     margin:0px;
     list-style:none;
@@ -202,16 +191,14 @@ body{
  
 .menu a {
     transition:all linear 0.15s;
-    color:#919191;
 }
  
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
-    color:#be5b70;
 }
  
 .menu .arrow {
-    font-size:11px;
+    font-size:24px;
     line-height:0%;
 }
  
@@ -220,7 +207,7 @@ body{
     float:left;
     display:inline-block;
     position:relative;
-    font-size:19px;
+    font-size:24px;
 }
  
 .menu > ul > li > a {
@@ -230,7 +217,6 @@ body{
 }
  
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background:#2e2728;
 }
  
 /*----- Bottom Level -----*/

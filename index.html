@@ -5,6 +5,38 @@
 <meta charset="UTF-8">
 <title>Design Brief</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
+
+<script type="text/javascript" language="JavaScript"><!--
+
+function HideContent(d) {
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+document.getElementById(d).style.display = "block";
+}
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+
+function HideAllShowOne(d) {
+// Between the quotation marks, list the id values of each div.
+
+var IDvaluesOfEachDiv = "compsci pr12 apcomp pltw ddp cim de edd mc";
+
+//-------------------------------------------------------------
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/\s*$/,"");
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/  +/g," ");
+var IDlist = IDvaluesOfEachDiv.split(" ");
+for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
+ShowContent(d);
+}
+
+//--></script>
+
+
 </head>
 
 <body>
@@ -38,9 +70,9 @@ Ithaca High School has four dedicated tech rooms. Between them, a lot can be don
 <div id="classes">
     <div id="sitelinks" class="subtitle">
         <a class="heading">Classes</a> 
-        <a class="sitelink" href="#compsci">Computer Science</a> 
-        <a class="sitelink" href="#pltw">PLTW Classes</a>
-        <a class="sitelink" href="#med">Media Classes</a>
+        <a class="sitelink" href="javascript:HideAllShowOne('compsci');">Computer Science</a> 
+        <a class="sitelink" href="javascript:HideAllShowOne('pltw');">PLTW Classes</a>
+        <a class="sitelink" href="javascript:HideAllShowOne('mc');">Media Classes</a>
     </div>
 </div>
 <div id="present">

@@ -129,7 +129,6 @@ body{
     padding: 0;
     position: static;
     min-height: 50px;
-    max-height: 50px;
     overflow-y: auto;
     text-align: center;
 }

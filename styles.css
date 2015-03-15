@@ -128,7 +128,6 @@ body{
     display: block;
     padding: 0;
     position: static;
-    min-height: 50px;
     overflow-y: auto;
     text-align: center;
 }

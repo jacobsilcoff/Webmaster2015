@@ -95,7 +95,7 @@ body{
     background-color: white;
     display: block;
     position: static;
-    min-height: 500px;
+    min-height: 60vhpx;
     max-height: 90vh;
     width: 80%;
     padding-left: 10%;

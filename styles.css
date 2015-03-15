@@ -3,7 +3,9 @@ body{
     font-family: "Sans Pro", sans-serif;
     font-weight: lighter;
     height: 100vw;
-    padding: 0;
+    width: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 /*Menu*/
 #menuBar{

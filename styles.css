@@ -124,7 +124,7 @@ body{
     background-color: red;
 }
 #about, #labs, #classes{
-    background-color: rgb(64,64,64);
+    background-color: rgb(94,94,94);
     display: block;
     padding: 0;
     position: static;

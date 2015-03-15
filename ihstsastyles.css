@@ -81,6 +81,7 @@ body{
     background-color: white;
     display: block;
     position: static;
+    height: calc(100vh - 130px);
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
@@ -89,25 +90,11 @@ body{
     align-items: center;
     z-index: 0;
 }
-#probinfo, #solutions, #map, #bib{
+#Activites, #Officers, #map, #bib{
     background-color: white;
     display: block;
     position: static;
-   min-height: 500px;
-    max-height: 90vh;
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    overflow-y: auto;
-    text-align: center;
-    align-items: center;
-}
-#problems{
-    display: block;
-    position: static;
-   min-height: 700px;
-   height: 700px;
-    max-height: 700px;
+    height: calc(100vh - 130px);
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
@@ -118,7 +105,7 @@ body{
 .abouttext{
     color: white;
 }
-#about{
+#More{
     background-color: rgb(64,64,64);
     display: block;
     position: static;
@@ -158,73 +145,6 @@ body{
     display: inline-block;
     vertical-align: -151px;
     font-size: 20px;
-}
-.battery{
-    background-image: url("battery.png");
-    background-size: 40px 110px;
-    background-repeat: no-repeat;
-    background-position: center top; 
-    margin: auto;
-    display: inline-block;
-    height: 160px;
-    width: 144px;
-}
-.battery:hover{
-    background-image: url("battery.png");
-    background-size: 40px 110px;
-    background-repeat: no-repeat;
-    background-position: center top; 
-    margin: auto;
-    display: inline-block;
-    height: 160px;
-    width: 144px;
-}
-.computer{
-    display: inline-block;
-    background-image: url("computer.png");
-    background-size: 144px 110px;
-    background-repeat: no-repeat;
-    height: 160px;
-    width: 144px;
-}
-.computer:hover{
-    background-image: url("computer1.png");
-    background-size: 144px 110px;
-    background-repeat: no-repeat;
-    height: 160px;
-    width: 144px;
-}
-.phone{
-    display: inline-block;
-    background-image: url("phone.png");
-    background-size: 93px 110px;
-    background-repeat: no-repeat;
-    margin-right: 30px;
-    height: 160px;
-    width: 144px;
-}
-.phone:hover{
-    background-image: url("phone1.png");
-    background-size: 93px 110px;
-    background-repeat: no-repeat;
-    margin-right: 30px;
-    height: 160px;
-    width: 144px;
-}
-.tv{
-    display: inline-block;
-    background-image: url("tv.png");
-    background-size: 144px 110px;
-    background-repeat: no-repeat;
-    height: 160px;
-    width: 144px;
-}
-.tv:hover{
-    background-image: url("tv1.png");
-    background-size: 144px 110px;
-    background-repeat: no-repeat;
-    height: 160px;
-    width: 144px;
 }
 .arrow{
     display: inline-block;

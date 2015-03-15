@@ -87,7 +87,7 @@ body{
     display: block;
     position: static;
     width: 80%;
-    height: calc(100vh - 185px);
+    height: calc(100vh - 130px);
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;

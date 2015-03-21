@@ -127,26 +127,26 @@ body{
     overflow-y: auto;
     text-align: center;
 }
-#e1{
+.e1{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-#e4{
+.e4{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-#e11{
+.e11{
     background-image: url("e11.JPG");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-#e11:hover{
+.e11:hover{
     background-image: url("e11.JPG");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
-#e16{
+.e16{
     background-size: 105% 105%;
     background-repeat: no-repeat;
 }

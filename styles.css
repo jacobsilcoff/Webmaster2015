@@ -139,7 +139,8 @@ body{
 }
 #e11{
     background-image: url("e11.JPG");
-    background-zise: contain;
+    background-zise: 100% 100%;
+    background-repeat: no-repeat;
 }
 #e16{
     

@@ -151,17 +151,12 @@ body{
     line-height: 36px;
 }
 .bodylink{
-    color: rgb(47,128,194);
-    text-decoration: none;
-    cursor: pointer;
-}
-.bodylink:visited{
-    color: rgb(47,128,194);
+    color: rgb(128,194,47);
     text-decoration: none;
     cursor: pointer;
 }
 .bodylink:hover{
-    color: purple;
+    color: rgb(128,194,47);
     text-decoration: none;
     cursor: pointer;
 }

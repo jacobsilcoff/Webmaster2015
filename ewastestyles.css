@@ -118,8 +118,7 @@ body{
 #problems{
     display: block;
     position: static;
-   min-height: 500px;
-    max-height: 90vh;
+    height: 50vh;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;

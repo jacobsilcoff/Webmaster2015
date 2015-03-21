@@ -115,13 +115,9 @@ body{
 .lab{
     display: inline-block;
     position: static;
-    background-color: blue;
     width: 49%;
     height: 230px;
-    margin-left: 0;
-}
-.lab:hover{
-    background-color: red;
+    margin: 0;
 }
 #about, #labs, #classes{
     background-color: rgb(74,74,74);
@@ -132,18 +128,28 @@ body{
     text-align: center;
 }
 #e1{
-    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 #e4{
-    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 #e11{
     background-image: url("e11.JPG");
-    background-zise: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#e11:hover{
+    background-image: url("e11.JPG");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #e16{
-    
+    background-image: url("e11.JPG");
+    background-size: 105% 105%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 /*Assorted Styles*/
 

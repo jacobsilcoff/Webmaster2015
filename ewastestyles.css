@@ -32,6 +32,11 @@ body{
     display: inline-block;
     height: 115px;
 }
+.ihstsa{
+    background-image: url("ihstsa.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 .othersite{
     position: relative;
     display: inline-block;

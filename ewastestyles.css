@@ -27,10 +27,11 @@ body{
 }
 #othersites{
     position: absolute;
-    right: 0;
-    top: 0;
     display: inline-block;
+    right: 0;
     height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .othersite{
     position: absolute;
@@ -48,7 +49,7 @@ body{
     background-image: url("white.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
-    background-position: center bottom;
+    background-position: center top;
     text-decoration: none;
     color: white;
 }

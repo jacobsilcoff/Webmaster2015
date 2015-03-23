@@ -19,8 +19,8 @@ body{
     vertical-align: -15px;
 }
 #othersites{
-    position: absolute;
-    right: 3px;
+    position: relative;
+    float: right;
     top: 0;
     display: inline-block;
     height: 115px;

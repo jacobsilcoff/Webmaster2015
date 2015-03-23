@@ -118,8 +118,7 @@ body{
 #problems{
     display: block;
     position: static;
-   min-height: 500px;
-    max-height: 90vh;
+    height: 50vh;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
@@ -152,17 +151,12 @@ body{
     line-height: 36px;
 }
 .bodylink{
-    color: rgb(47,128,194);
-    text-decoration: none;
-    cursor: pointer;
-}
-.bodylink:visited{
-    color: rgb(47,128,194);
+    color: rgb(128,194,47);
     text-decoration: none;
     cursor: pointer;
 }
 .bodylink:hover{
-    color: purple;
+    color: rgb(128,243,47);
     text-decoration: none;
     cursor: pointer;
 }

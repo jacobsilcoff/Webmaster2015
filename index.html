@@ -6,35 +6,27 @@
 <title>Design Brief</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-<script type="text/javascript" language="JavaScript"><!--
+<script type="text/javascript" language="JavaScript">//<!--
 
-function HideContent(d) {
-document.getElementById(d).style.display = "none";
-}
-function ShowContent(d) {
-document.getElementById(d).style.display = "block";
-}
-function ReverseDisplay(d) {
-if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
-else { document.getElementById(d).style.display = "none"; }
-}
+$ = document.getElementById.bind(document)
 
-function HideAllShowOne(d) {
+function toggle(d) {
+    var el = $(d);
+	el.style.display = el.style.display == "" ? "initial" : "";
+}
+function activate(d) {
 // Between the quotation marks, list the id values of each div.
 
-var IDvaluesOfEachDiv = "compsci pr12 apcomp pltw ddp cim de edd mc";
-
-//-------------------------------------------------------------
-IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
-IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
-IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/\s*$/,"");
-IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/  +/g," ");
-var IDlist = IDvaluesOfEachDiv.split(" ");
-for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
-ShowContent(d);
+var sections = "compsci pr12 apcomp pltw ddp cim de edd mc".split(" ");
+for(var i = 0; i < sections.length; i++) $(sections[i]).style.display = "";
+$(d).style.display = "initial";
 }
-
-//--></script>
+window.addEventListener('hashchange', function(event){
+  var x = location.hash.substring(1);
+  activate(x);
+}
+//-->
+</script>
 
 
 </head>
@@ -67,38 +59,38 @@ Ithaca High School has four dedicated tech rooms. Between them, a lot can be don
 <br>
 <div class="arrow"><a class="bodylink" href="#classes">&#10094;</a></div>
 </div>
-<div id="classes">
-    <div id="sitelinks" class="subtitle">
-        <a class="heading">Classes</a> 
-        <a class="sitelink" href="javascript:HideAllShowOne('compsci');">Computer Science</a> 
-        <a class="sitelink" href="javascript:HideAllShowOne('pltw');">PLTW Classes</a>
-        <a class="sitelink" href="javascript:HideAllShowOne('mc');">Media Classes</a>
-    </div>
-</div>
-<div id="classes">
-    <nav class="menu" id="sitelinks" class="subtitle">
-        <ul class="clearfix" class="sitelinks" class="subtitle">
-            <li><a class="sitelink" href="javascript:HideAllShowOne('compsci');">Computer Science</a>
+<hr />
+<div class="menu-wrap">
+    <nav class="menu">
+        <ul class="clearfix">
+            <li><a href="javascript:void 0">Computer Science</a>
+            
             <ul class="sub-menu">
-                    <li><a href="javascript:HideAllShowOne('pr12');">Programming I and II</a></li>
-                    <li><a href="javascript:HideAllShowOne('apcomp');">CIM</a></li>
+                    <li><a href="#pr12">Programming 1 &amp; 2</a></li>
+                    <li><a href="#apcomp">AP Computer Science</a></li>
                 </ul>
+      
             </li>
                 <li>
-                <a class="sitelink" href="javascript:HideAllShowOne('pltw');">PLTW</a>
+                <a href="javascript:void 0">PLTW</a>
+
                 <ul class="sub-menu">
-                    <li><a href="javascript:HideAllShowOne('ddp');">DDP</a></li>
-                    <li><a href="javascript:HideAllShowOne('cim');">CIM</a></li>
-                    <li><a href="javascript:HideAllShowOne('de');">DE</a></li>
-                    <li><a href="javascript:HideAllShowOne('pe');">POE</a></li>
-                    <li><a href="javascript:HideAllShowOne('edd');">EDD</a></li>
+                    <li><a href="#ddp">DDP</a></li>
+                    <li><a href="#cim">CIM</a></li>
+                    <li><a href="#de">DE</a></li>
+                    <li><a href="#poe">POE</a></li>
+                    <li><a href="#edd">EDD</a></li>
                 </ul>
                 
             </li>
-            <li><a href="#">Media Classes</a></li>
+            <li><a href="#mc">Media Classes</a></li>
         </ul>
     </nav>
 </div>
+<br />
+<br />
+<br />
+<hr />
 <div id="present" class="subtitle">
 <p class="subtitle">Ithaca High School offers a plethora of technology-related classes through its Math and Tech departments, ranging from AP Computer Science to Engineering Design and Development to Digital Media I and II. Many of the classes, such as Engineering Design and Development, are offered through the Project Lead the Way program.</p>
 <p id="compsci" class="nodisplay" class="subtitle"><b>Computer Science:</b>
@@ -128,16 +120,16 @@ Ithaca High School offers several courses relating to the production of media of
 </div>
 <div id="present2">
 <p class="subtitle">Ithaca High School has four tech labs.</p>
-<a><div id="e1" class="lab">
+<a><div class="e1 lab">
     <p class="subtitle">E1</p>
 </div></a>
-<a><div id="e4" class="lab">
+<a><div class="e4 lab">
 <p class="subtitle">E14</p>
 </div></a>
-<a><div id="e11" class="lab">
+<a><div class="e11 lab">
 <p class="subtitle">E11</p>
 </div></a>
-<a><div id="e16" class="lab">
+<a><div class="e16 lab">
 <p class="subtitle">E16</p>
 </div></a>
 <br>

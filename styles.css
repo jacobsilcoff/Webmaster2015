@@ -115,13 +115,9 @@ body{
 .lab{
     display: inline-block;
     position: static;
-    background-color: blue;
     width: 49%;
     height: 230px;
-    margin-left: 0;
-}
-.lab:hover{
-    background-color: red;
+    margin: 0;
 }
 #about, #labs, #classes{
     background-color: rgb(74,74,74);
@@ -131,17 +127,28 @@ body{
     overflow-y: auto;
     text-align: center;
 }
-#e1{
-    
+.e1{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-#e4{
-    
+.e4{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-#e11{
-    background-image: url('E11.jpg');
+.e11{
+    background-image: url("e11.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-#e16{
-    
+.e11:hover{
+    background-image: url("e11.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.e16{
+    background-size: 105% 105%;
+    background-repeat: no-repeat;
 }
 /*Assorted Styles*/
 
@@ -195,23 +202,31 @@ body{
 }
  
 /*----- Menu Outline -----*/
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ 
 .menu li {
     margin:0px;
     list-style:none;
-    font-family:'Sans pro';
+    font-family:'Arial';
 }
  
 .menu a {
     transition:all linear 0.15s;
+    color:rgb(47,127,194);/*Grey unselected text*/
 }
  
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
-}
- 
-.menu .arrow {
-    font-size:24px;
-    line-height:0%;
+    color:rgb(47,127,243);/*Selected text -- blue*/
 }
  
 /*----- Top Level -----*/
@@ -219,7 +234,7 @@ body{
     float:left;
     display:inline-block;
     position:relative;
-    font-size:24px;
+    font-size:19px;
 }
  
 .menu > ul > li > a {
@@ -229,6 +244,7 @@ body{
 }
  
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#646464;
 }
  
 /*----- Bottom Level -----*/
@@ -238,7 +254,7 @@ body{
 }
  
 .sub-menu {
-    width:160%;
+    width:100%;
     padding:5px 0px;
     position:absolute;
     top:100%;
@@ -247,7 +263,7 @@ body{
     opacity:0;
     transition:opacity linear 0.15s;
     box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background:#2e2728;
+    background:#646464;/*Background of tab*/
 }
  
 .sub-menu li {
@@ -255,11 +271,16 @@ body{
     font-size:16px;
 }
  
-.sub-menu li         ```````````a {
+.sub-menu li a {
     padding:10px 30px;
     display:block;
 }
  
 .sub-menu li a:hover, .sub-menu .current-item a {
-    background:#3e3436;
+    background:#0A004A;
+}
+
+.menu-wrap a
+{
+    text-decoration: none;
 }

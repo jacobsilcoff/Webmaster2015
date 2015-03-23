@@ -53,12 +53,6 @@ body{
     text-decoration: none;
     color: white;
 }
-.edu{
-    width: 200px;
-}
-.ihstsa{
-    left: 250px;
-}
 #title, #sitelinks{
     position: static;
     display: inline-block;

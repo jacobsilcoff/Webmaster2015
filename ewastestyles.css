@@ -39,10 +39,6 @@ body{
     margin-bottom: 0px;
     text-decoration: none;
     color: lightgray;
-    background-image: url("white.png");
-    background-repeat: no-repeat;
-    background-size: 200px 5px;
-    background-position: center bottom;
     text-decoration: none;
 }
 .othersite:hover{
@@ -51,7 +47,11 @@ body{
     background-color: white;
     width: 132px;
     text-decoration: none;
-    color: rgb(47,128,243);
+    color: white;
+    background-image: url("white.png");
+    background-repeat: no-repeat;
+    background-size: 200px 5px;
+    background-position: center bottom;
 }
 #title, #sitelinks{
     position: static;

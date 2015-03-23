@@ -46,7 +46,7 @@ body{
     background-image: url("white.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
-    background-position: center bottom;
+    background-position: center top;
 }
 #title, #sitelinks{
     position: static;

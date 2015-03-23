@@ -27,7 +27,7 @@ body{
 }
 #othersites{
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
     display: inline-block;
     height: 50px;
@@ -40,9 +40,6 @@ body{
     height: 50px;
     text-decoration: none;
     color: lightgray;
-}
-.ihstsa{
-    left: 200px;
 }
 .othersite:hover{
     display: inline-block;

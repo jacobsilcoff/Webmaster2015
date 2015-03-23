@@ -26,7 +26,7 @@ body{
     vertical-align: -15px;
 }
 #othersites{
-    position: static;
+    position: absolute;
     display: inline-block;
     left: calc(100% - 800px);
     height: 50px;
@@ -34,7 +34,7 @@ body{
     margin-bottom: 0px;
 }
 .othersite{
-    position: static;
+    position: absolute;
     display: inline-block;
     bottom: 0;
     margin-right: 50px;

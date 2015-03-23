@@ -120,6 +120,18 @@ body{
     text-align: center;
     align-items: center;
 }
+#probinfo{
+    animation-name: expand;
+    -webkit-animation-name: expand;
+}
+@keyframes expand {
+    from {height: 0vh}
+    to {height: 90vh;}
+}
+@-webkit-keyframes expand {
+    from {height: 0vh}
+    to {height: 90vh;}
+}
 #problems{
     display: block;
     position: static;

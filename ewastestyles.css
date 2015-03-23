@@ -4,9 +4,6 @@ body{
     font-weight: lighter;
     height: 100%;
 }
-.movedown{
-    margin-top: 15px;
-}
 .background{
     display: block;
     position: fixed;
@@ -41,6 +38,7 @@ body{
     text-decoration: none;
     color: lightgray;
     text-decoration: none;
+    padding-top: 15px;
 }
 .othersite:hover{
     position: relative;

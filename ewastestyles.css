@@ -35,6 +35,8 @@ body{
 .othersite{
     position: relative;
     display: inline-block;
+    margin-left: 40px;
+    margin-right: 10px;
     text-decoration: none;
     color: lightgray;
     text-decoration: none;

@@ -30,7 +30,7 @@ body{
     display: inline-block;
     right: 0;
     height: 50px;
-    margin-top: 0px;
+    margin-top: 50px;
     margin-bottom: 0px;
 }
 .othersite{
@@ -49,9 +49,15 @@ body{
     background-image: url("white.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
-    background-position: center top;
+    background-position: center bottom;
     text-decoration: none;
     color: white;
+}
+.edu{
+    width: 200px;
+}
+.ihstsa{
+    left: 250px;
 }
 #title, #sitelinks{
     position: static;

@@ -4,6 +4,9 @@ body{
     font-weight: lighter;
     height: 100%;
 }
+.movedown{
+ line-height: 15px;
+}
 .background{
     display: block;
     position: fixed;
@@ -52,7 +55,6 @@ body{
     position: static;
     display: inline-block;
     height: 50px;
-    margin-left: 275px;
     margin-top: 0px;
     margin-bottom: 0px;
 }

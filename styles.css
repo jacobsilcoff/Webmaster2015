@@ -130,6 +130,7 @@ body{
 .e1{
     background-size: 100% 100%;
     background-repeat: no-repeat;
+<<<<<<< HEAD
 }
 .e4{
     background-size: 100% 100%;
@@ -140,6 +141,18 @@ body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+=======
+}
+.e4{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.e11{
+    background-image: url("e11.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+>>>>>>> origin/gh-pages
 .e11:hover{
     background-image: url("e11.JPG");
     background-size: 100% 100%;

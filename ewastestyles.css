@@ -27,40 +27,40 @@ body{
 }
 #othersites{
     position: absolute;
+    left: 0;
+    top: 0;
     display: inline-block;
-    left: calc(100% - 400px);
-    height: 50px;
-    margin-top: -95px;
-    margin-bottom: 0px;
+    height: 115px;
 }
-span{
-    bottom: 0;
+.ihstsa{
+    background-image: url("ihstsa.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .othersite{
-    position: absolute;
+    position: relative;
     display: inline-block;
-    bottom: 0;
-    margin-right: 50px;
-    height: 50px;
+    height: 115px;
+    width: 132px;
+    margin-bottom: 0px;
+    margin-right: -7px;
     text-decoration: none;
-    color: lightgray;
+    background-color: blue;
+    color: rgb(47,128,194);
 }
 .othersite:hover{
-    display: inline-block;
-    margin-right: 50px;
-    height: 50px;
-    background-image: url("white.png");
-    background-repeat: no-repeat;
-    background-size: 200px 5px;
-    background-position: center bottom;
+    position: relative;
+    height: 115px;
+    background-color: white;
+    width: 132px;
     text-decoration: none;
-    color: white;
+    color: rgb(47,128,243);
 }
 #title, #sitelinks{
     position: static;
     display: inline-block;
     height: 50px;
-    margin-left: 35px;
+    margin-left: 275px;
     margin-top: 0px;
     margin-bottom: 0px;
 }

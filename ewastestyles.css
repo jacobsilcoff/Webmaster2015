@@ -30,8 +30,11 @@ body{
     display: inline-block;
     left: calc(100% - 400px);
     height: 50px;
-    margin-top: 50px;
+    margin-top: -95px;
     margin-bottom: 0px;
+}
+span{
+    bottom: 0;
 }
 .othersite{
     position: absolute;

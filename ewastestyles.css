@@ -30,31 +30,25 @@ body{
     left: 0;
     top: 0;
     display: inline-block;
-    height: 115px;
-}
-.ihstsa{
-    background-image: url("ihstsa.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    height: 50px;
 }
 .othersite{
-    position: relative;
     display: inline-block;
-    height: 115px;
-    width: 132px;
-    margin-bottom: 0px;
-    margin-right: -7px;
+    margin-right: 50px;
+    height: 50px;
     text-decoration: none;
-    background-color: blue;
-    color: rgb(47,128,194);
+    color: lightgray;
 }
 .othersite:hover{
-    position: relative;
-    height: 115px;
-    background-color: white;
-    width: 132px;
+    display: inline-block;
+    margin-right: 50px;
+    height: 50px;
+    background-image: url("white.png");
+    background-repeat: no-repeat;
+    background-size: 200px 5px;
+    background-position: center bottom;
     text-decoration: none;
-    color: rgb(47,128,243);
+    color: white;
 }
 #title, #sitelinks{
     position: static;

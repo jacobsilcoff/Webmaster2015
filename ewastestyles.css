@@ -33,11 +33,16 @@ body{
     height: 50px;
 }
 .othersite{
+    position: absolute;
     display: inline-block;
+    bottom: 0;
     margin-right: 50px;
     height: 50px;
     text-decoration: none;
     color: lightgray;
+}
+.ihstsa{
+    left: 200px;
 }
 .othersite:hover{
     display: inline-block;
@@ -54,7 +59,7 @@ body{
     position: static;
     display: inline-block;
     height: 50px;
-    margin-left: 275px;
+    margin-left: 302px;
     margin-top: 0px;
     margin-bottom: 0px;
 }

@@ -106,6 +106,21 @@ body{
     align-items: center;
     z-index: 0;
 }
+#wastes{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    position: static;
+    width: 80%;
+    height: 500px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    overflow-y: auto;
+    text-align: center;
+    align-items: center;
+    z-index: 0;
+}
 #probinfo, #solutions, #map, #bib{
     background-color: white;
     display: block;

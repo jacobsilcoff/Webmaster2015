@@ -25,18 +25,31 @@ body{
     background-color: rgb(64,64,64);
     vertical-align: -15px;
 }
-#toMainSite{
-    text-align: center;
+#othersites{
     position: absolute;
-    background-color: #75E677;
-    width:90px;
-    height:80px;
-    padding: 10px;
-    border-radius: 50%;
-    margin-right: 35px;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    height: 115px;
 }
-#toMainSite:hover{
-    background-color: #66C468;
+.othersite{
+    position: relative;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: lightgray;
+    text-decoration: none;
+    padding-top: 15px;
+}
+.othersite:hover{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background-image: url("white.png");
+    background-repeat: no-repeat;
+    background-size: 200px 5px;
+    background-position: center top;
 }
 #title, #sitelinks{
     position: static;

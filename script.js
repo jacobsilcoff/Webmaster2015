@@ -11,6 +11,7 @@
 */
 function dropDownArrow(arrow, elId)
 {
+    console.log("function ran");
     var element = document.getElementById(arrow);
     
     console.log("element.innerHTML == " + element.innerHTML);
@@ -30,3 +31,6 @@ function dropDownArrow(arrow, elId)
 
 document.getElementById("arrow").onclick = function(){
    dropDownArrow("arrow", "probinfo");
+};
+
+console.log("Linked");

@@ -107,9 +107,7 @@ body{
     z-index: 0;
 }
 #wastes{
-    background-image: url("background.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-color: rgb(109,164,98);
     display: block;
     position: static;
     width: 80%;

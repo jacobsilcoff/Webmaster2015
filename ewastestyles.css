@@ -92,7 +92,7 @@ body{
 }
 /*Content*/
 #intro{
-    background-color: white;
+    background-image: url("background.png");
     display: block;
     position: static;
     width: 80%;

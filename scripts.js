@@ -29,8 +29,8 @@ function dropDownArrow(arrow, elId)
     }
 }
 
-document.getElementById("arrow").onclick = function(){
-   dropDownArrow("arrow", "probinfo");
+document.getElementById("problems").onclick = function(){
+   dropDownArrow("problems", "probinfo");
 };
 
 console.log("Linked");

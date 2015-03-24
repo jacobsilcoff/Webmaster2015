@@ -132,6 +132,18 @@ body{
     text-align: center;
     align-items: center;
 }
+#solutions{
+    background-color: rgb(119,237,182);
+    display: block;
+    position: static;
+    height: 90vh;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
+    text-align: center;
+    align-items: center;
+}
 #probinfo{
     animation-name: expand;
     -webkit-animation-name: expand;

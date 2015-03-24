@@ -1,8 +1,8 @@
 /**
 * Makes an arrow open and close some text.
 * How to use:
-* document.getElementById("arrow name").onclick = function(){
-*    dropDownArrow("arrow name", "text name");
+* document.getElementById("arrow").onclick = function(){
+*    dropDownArrow("arrow", "probinfo");
 * };
 * @param arrow The id of the arrow being clicked (a string)
 * @param elId The id of the element being toggled (a string)

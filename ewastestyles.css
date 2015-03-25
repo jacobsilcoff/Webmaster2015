@@ -109,7 +109,7 @@ body{
     z-index: 0;
 }
 #wastes{
-    background-color: white;
+    background-color: rgb(119,237,182);
     display: block;
     position: static;
     width: 80%;
@@ -212,70 +212,70 @@ body{
 }
 .battery{
     background-image: url("battery.png");
-    background-size: 100% 80%;
+    background-size: 40px 110px;
     background-repeat: no-repeat;
     background-position: center top; 
     margin: auto;
     display: inline-block;
-    height: 57.6%;
-    width: 16.7%;
+    height: 160px;
+    width: 144px;
 }
 .battery:hover{
     background-image: url("battery.png");
-    background-size: 100% 80%;
+    background-size: 40px 110px;
     background-repeat: no-repeat;
     background-position: center top; 
     margin: auto;
     display: inline-block;
-    height: 57.6%;
-    width: 16.7%;
+    height: 160px;
+    width: 144px;
 }
 .computer{
     display: inline-block;
     background-image: url("computer.png");
-    background-size: 100% 80%;
+    background-size: 144px 110px;
     background-repeat: no-repeat;
-    height: 57.6%;
-    width: 16.7%;
+    height: 160px;
+    width: 144px;
 }
 .computer:hover{
     background-image: url("computer1.png");
-    background-size: 16.7% 57.6%;
+    background-size: 144px 110px;
     background-repeat: no-repeat;
-    height: 57.6%;
-    width: 16.7%;
+    height: 160px;
+    width: 144px;
 }
 .phone{
     display: inline-block;
     background-image: url("phone.png");
-    background-size: 100% 80%;
+    background-size: 93px 110px;
     background-repeat: no-repeat;
     margin-right: 30px;
-    height: 57.6%;
-    width: 16.7%;
+    height: 160px;
+    width: 144px;
 }
 .phone:hover{
     background-image: url("phone1.png");
-    background-size: 100% 80%;
+    background-size: 93px 110px;
     background-repeat: no-repeat;
     margin-right: 30px;
-    height: 57.6%;
-    width: 16.7%;
+    height: 160px;
+    width: 144px;
 }
 .tv{
     display: inline-block;
     background-image: url("tv.png");
-    background-size: 100% 80%;
+    background-size: 144px 110px;
     background-repeat: no-repeat;
-    height: 57.6%;
-    width: 16.7%;
+    height: 160px;
+    width: 144px;
 }
 .tv:hover{
     background-image: url("tv1.png");
-    background-size: 100% 80%;
+    background-size: 144px 110px;
     background-repeat: no-repeat;
-    height: 57.6%;
-    width: 16.7%;
+    height: 160px;
+    width: 144px;
 }
 .arrow{
     display: inline-block;

@@ -35,8 +35,8 @@ body{
 .othersite:hover{
     position: relative;
     text-decoration: none;
-    color: rgb(120,120,120);
-    background-image: url("white.png");
+    color: rgb(120,110,110);
+    background-image: url("gray.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
     background-position: center top;

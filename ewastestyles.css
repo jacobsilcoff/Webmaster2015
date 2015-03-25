@@ -28,14 +28,14 @@ body{
     margin-left: 40px;
     margin-right: 10px;
     text-decoration: none;
-    color: lightgray;
+    color: gray;
     text-decoration: none;
     padding-top: 15px;
 }
 .othersite:hover{
     position: relative;
     text-decoration: none;
-    color: white;
+    color: rgb(120,120,120);
     background-image: url("white.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;

@@ -3,7 +3,6 @@ body{
     font-family: "Sans Pro", sans-serif;
     font-weight: lighter;
     height: 100%;
-    padding: auto;
 }
 .background{
     display: block;
@@ -14,6 +13,11 @@ body{
     height: 100%;
     width: 100%;
     z-index: -10;
+}
+.content{
+    max-width: 1245px;
+    margin: 0;
+    padding: 0;
 }
 /*Menu*/
 #othersites{

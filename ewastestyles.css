@@ -212,7 +212,7 @@ body{
 }
 .battery{
     background-image: url("battery.png");
-    background-size: 80px 220px;
+    background-size: 15% 44%;
     background-repeat: no-repeat;
     background-position: center top; 
     margin: auto;
@@ -222,7 +222,7 @@ body{
 }
 .battery:hover{
     background-image: url("battery.png");
-    background-size: 80px 220px;
+    background-size: 15% 44%;
     background-repeat: no-repeat;
     background-position: center top; 
     margin: auto;
@@ -233,14 +233,14 @@ body{
 .computer{
     display: inline-block;
     background-image: url("computer.png");
-    background-size: 288px 220px;
+    background-size: 15% 44%;
     background-repeat: no-repeat;
     height: 57.6%;
     width: 16.7%;
 }
 .computer:hover{
     background-image: url("computer1.png");
-    background-size: 288px 220px;
+    background-size: 15% 44%;
     background-repeat: no-repeat;
     height: 57.6%;
     width: 16.7%;
@@ -248,7 +248,7 @@ body{
 .phone{
     display: inline-block;
     background-image: url("phone.png");
-    background-size: 186px 220px;
+    background-size: 15% 44%;
     background-repeat: no-repeat;
     margin-right: 30px;
     height: 57.6%;
@@ -256,7 +256,7 @@ body{
 }
 .phone:hover{
     background-image: url("phone1.png");
-    background-size: 186px 220px;
+    background-size: 15% 44%;
     background-repeat: no-repeat;
     margin-right: 30px;
     height: 57.6%;
@@ -265,14 +265,14 @@ body{
 .tv{
     display: inline-block;
     background-image: url("tv.png");
-    background-size: 288px 220px;
+    background-size: 15% 44%;
     background-repeat: no-repeat;
     height: 57.6%;
     width: 16.7%;
 }
 .tv:hover{
     background-image: url("tv1.png");
-    background-size: 288px 220px;
+    background-size: 15% 44%;
     background-repeat: no-repeat;
     height: 57.6%;
     width: 16.7%;

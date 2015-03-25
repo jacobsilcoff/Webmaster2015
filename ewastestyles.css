@@ -98,7 +98,7 @@ body{
     z-index: 0;
 }
 #wastes{
-    background-color: rgb(119,237,182);
+    background-image: url("tech.png");
     display: block;
     position: static;
     width: 80%;

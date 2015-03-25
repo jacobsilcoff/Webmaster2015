@@ -84,7 +84,7 @@ body{
 /*Content*/
 #intro{
     background-image: url("background.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-size: 100% 100%;
     display: block;
     position: static;

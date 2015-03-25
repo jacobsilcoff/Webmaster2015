@@ -29,14 +29,14 @@ body{
     margin-left: 40px;
     margin-right: 10px;
     text-decoration: none;
-    color: lightgray;
+    color: gray;
     text-decoration: none;
     padding-top: 15px;
 }
 .othersite:hover{
     position: relative;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 153, 153)
     background-image: url("white.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
@@ -93,6 +93,7 @@ body{
     max-height: 600px;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 10%;
     overflow-y: auto;
     text-align: center;
     align-items: center;

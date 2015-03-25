@@ -265,14 +265,14 @@ body{
 .tv{
     display: inline-block;
     background-image: url("tv.png");
-   background-size: 16.7% 57.6%;
+   background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 57.6%;
     width: 16.7%;
 }
 .tv:hover{
     background-image: url("tv1.png");
-    background-size: 16.7% 57.6%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 57.6%;
     width: 16.7%;

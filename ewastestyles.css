@@ -52,9 +52,9 @@ body{
     margin-bottom: 0px;
 }
 .title{
-    font-size: 40px;
+    font-size: 60px;
     margin: 0px;
-    color: lightgray;
+    color: gray;
 }
 .sitelink{
     display: inline-block;

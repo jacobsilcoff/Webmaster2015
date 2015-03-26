@@ -7,8 +7,7 @@ body{
 .background{
     display: block;
     position: fixed;
-    background-image: url("ewastec1.jpg");
-    background-repeat: repeat-x;
+    background-color: #66FFCC;
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -20,7 +19,7 @@ body{
     right: 0;
     top: 0;
     display: inline-block;
-    height: 115px;
+    height: 14px;
 }
 .othersite{
     position: relative;
@@ -28,63 +27,60 @@ body{
     margin-left: 40px;
     margin-right: 10px;
     text-decoration: none;
-    color: gray;
+    color: #515151;
     text-decoration: none;
     padding-top: 15px;
 }
 .othersite:hover{
     position: relative;
     text-decoration: none;
-    color: rgb(120,110,110);
-    background-image: url("gray.png");
-    background-repeat: no-repeat;
+    color: #515151;
+    background-color: #66FFCC;
     background-size: 200px 5px;
     background-position: center top;
 }
 #title, #sitelinks{
     position: static;
     display: inline-block;
-    height: 50px;
+    height: 12px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .title{
-    font-size: 60px;
+    font-size: 72px;
     font-weight: heavy;
-    margin: 0px;
-    color: gray;
+    margin-top: 30px;
+    color: #515151;
 }
 .sitelink{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
     text-decoration: none;
-    color: rgb(128,194,47);
+    color: #515151;
 }
 .sitelink:hover{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
-    background-image: url("linkgreen.png");
-    background-repeat: no-repeat;
+    background-color: #66FFCC;
     background-size: 200px 5px;
     background-position: center bottom;
     text-decoration: none;
-    color: rgb(128,243,47);
+    color: #515151;
 }
 .about{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
     text-decoration: none;
-    color: lightgray;
+    color: #515151;
 }
 /*Content*/
 #intro{
-    background-image: url("background.png");
-    background-repeat: repeat-x;
+    background-color: #66FFCC;
     display: block;
     position: static;
     width: 80%;
@@ -111,7 +107,7 @@ body{
     z-index: 0;
 }
 #probinfo, #solutions, #map, #bib{
-    background-color: white;
+    background-color: #66FFCC;
     display: block;
     position: static;
     height: 90vh;
@@ -123,7 +119,7 @@ body{
     align-items: center;
 }
 #solutions{
-    background-color: rgb(119,237,182);
+    background-color: #66FFCC;
     display: block;
     position: static;
     height: 90vh;
@@ -164,7 +160,7 @@ body{
     color: white;
 }
 #about{
-    background-color: rgb(64,64,64);
+    background-color: #66FFCC;
     display: block;
     position: static;
     min-height: 50px;
@@ -185,12 +181,12 @@ body{
     line-height: 36px;
 }
 .bodylink{
-    color: rgb(128,194,47);
+    color: #515151;
     text-decoration: none;
     cursor: pointer;
 }
 .bodylink:hover{
-    color: rgb(128,243,47);
+    color: #515151;
     text-decoration: none;
     cursor: pointer;
 }

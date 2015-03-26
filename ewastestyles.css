@@ -7,7 +7,8 @@ body{
 .background{
     display: block;
     position: fixed;
-    background-color: #66FFCC;
+    background-image: url("ewastec1.jpg");
+    background-repeat: repeat-x;
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -19,7 +20,7 @@ body{
     right: 0;
     top: 0;
     display: inline-block;
-    height: 14px;
+    height: 115px;
 }
 .othersite{
     position: relative;
@@ -27,60 +28,63 @@ body{
     margin-left: 40px;
     margin-right: 10px;
     text-decoration: none;
-    color: #515151;
+    color: gray;
     text-decoration: none;
     padding-top: 15px;
 }
 .othersite:hover{
     position: relative;
     text-decoration: none;
-    color: #515151;
-    background-color: #66FFCC;
+    color: rgb(120,110,110);
+    background-image: url("gray.png");
+    background-repeat: no-repeat;
     background-size: 200px 5px;
     background-position: center top;
 }
 #title, #sitelinks{
     position: static;
     display: inline-block;
-    height: 12px;
+    height: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .title{
-    font-size: 72px;
+    font-size: 60px;
     font-weight: heavy;
-    margin-top: 30px;
-    color: #515151;
+    margin: 0px;
+    color: gray;
 }
 .sitelink{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
     text-decoration: none;
-    color: #515151;
+    color: rgb(128,194,47);
 }
 .sitelink:hover{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
-    background-color: #66FFCC;
+    background-image: url("linkgreen.png");
+    background-repeat: no-repeat;
     background-size: 200px 5px;
     background-position: center bottom;
     text-decoration: none;
-    color: #515151;
+    color: rgb(128,243,47);
 }
 .about{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
     text-decoration: none;
-    color: #515151;
+    color: lightgray;
 }
 /*Content*/
 #intro{
-    background-color: #66FFCC;
+    background-image: url("background.png");
+    background-repeat: repeat-x;
     display: block;
     position: static;
     width: 80%;
@@ -94,7 +98,7 @@ body{
     z-index: 0;
 }
 #wastes{
-    background-color: #66FFCC;
+    background-image: url("tech.png");
     display: block;
     position: static;
     width: 80%;
@@ -107,7 +111,7 @@ body{
     z-index: 0;
 }
 #probinfo, #solutions, #map, #bib{
-    background-color: #66FFCC;
+    background-color: white;
     display: block;
     position: static;
     height: 90vh;
@@ -119,7 +123,7 @@ body{
     align-items: center;
 }
 #solutions{
-    background-color: #66FFCC;
+    background-color: rgb(119,237,182);
     display: block;
     position: static;
     height: 90vh;
@@ -160,7 +164,7 @@ body{
     color: white;
 }
 #about{
-    background-color: #66FFCC;
+    background-color: rgb(64,64,64);
     display: block;
     position: static;
     min-height: 50px;
@@ -172,28 +176,28 @@ body{
 
 .subtitle{
     text-align: justify;
-    font-size: 12px;
+    font-size: 24px;
     line-height: 36px;
 }
 .centertitle{
     text-align: left;
-    font-size: 12px;
+    font-size: 30px;
     line-height: 36px;
 }
 .bodylink{
-    color: #515151;
+    color: rgb(128,194,47);
     text-decoration: none;
     cursor: pointer;
 }
 .bodylink:hover{
-    color: #515151;
+    color: rgb(128,243,47);
     text-decoration: none;
     cursor: pointer;
 }
 .linktext{
     display: inline-block;
     vertical-align: -151px;
-    font-size: 12px;
+    font-size: 20px;
 }
 .battery{
     background-image: url("battery.png");

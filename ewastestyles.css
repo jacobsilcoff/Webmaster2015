@@ -137,6 +137,7 @@ body{
 #probinfo{
     animation-name: expand;
     -webkit-animation-name: expand;
+    display: none;
 }
 @keyframes expand {
     from {height: 0vh}
@@ -157,9 +158,6 @@ body{
     text-align: center;
     align-items: center;
 }
-#probinfo{
-    display: none;
-}
 .abouttext{
     color: white;
 }
@@ -177,6 +175,11 @@ body{
 .subtitle{
     text-align: justify;
     font-size: 24px;
+    line-height: 36px;
+}
+.menulinks{
+    text-align: justify;
+    font-size: 14px;
     line-height: 36px;
 }
 .centertitle{
@@ -197,7 +200,7 @@ body{
 .linktext{
     display: inline-block;
     vertical-align: -151px;
-    font-size: 20px;
+    font-size: 14px;
 }
 .battery{
     background-image: url("battery.png");

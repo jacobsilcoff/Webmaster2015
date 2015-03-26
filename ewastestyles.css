@@ -94,7 +94,7 @@ body{
     z-index: 0;
 }
 #wastes{
-    background-image: url("tech.png");
+    background-color: #66FFCC;
     display: block;
     position: static;
     width: 80%;
@@ -172,12 +172,12 @@ body{
 
 .subtitle{
     text-align: justify;
-    font-size: 24px;
+    font-size: 12px;
     line-height: 36px;
 }
 .centertitle{
     text-align: left;
-    font-size: 30px;
+    font-size: 12px;
     line-height: 36px;
 }
 .bodylink{
@@ -193,7 +193,7 @@ body{
 .linktext{
     display: inline-block;
     vertical-align: -151px;
-    font-size: 20px;
+    font-size: 12px;
 }
 .battery{
     background-image: url("battery.png");

@@ -224,21 +224,21 @@ body{
 }
 .battery:hover{
     background-image: url("battery.png");
-    background-size: 40px 110px;
+    background-size: 80px 220px;
     background-repeat: no-repeat;
     background-position: center top; 
     margin: auto;
     display: inline-block;
-    height: 160px;
-    width: 144px;
+    height: 320px;
+    width: 288px;
 }
 .computer{
     display: inline-block;
     background-image: url("computer.png");
-    background-size: 144px 110px;
+    background-size: 288px 220px;
     background-repeat: no-repeat;
-    height: 160px;
-    width: 144px;
+    height: 320px;
+    width: 288px;
 }
 .computer:hover{
     background-image: url("computer1.png");

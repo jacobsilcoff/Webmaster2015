@@ -84,71 +84,39 @@ body{
     color: rgb(128,194,47);
 }
 /*Content*/
+.section{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
+    text-align: center;
+    align-items: center;
+    z-index: 0;
+}
 #intro{
     background-image: url("background.jpg");
     background-repeat: repeat-x;
-    position: static;
     height: 90vh;
     max-height: 600px;
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    overflow-y: auto;
-    text-align: center;
-    z-index: 0;
 }
 #wastes{
     background-image: url("tech.png");
-    display: block;
-    position: static;
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    overflow-y: auto;
-    text-align: center;
-    align-items: center;
-    z-index: 0;
-}
-#probinfo, #solutions, #map, #bib{
-    background-color: white;
-    display: block;
-    position: static;
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    overflow-y: auto;
-    text-align: center;
-    align-items: center;
 }
 #probinfo{
     display: none;
 }
-#problems{
-    display: block;
-    position: static;
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    overflow-y: auto;
-    text-align: center;
-    align-items: center;
-}
 #solutions{
     background-color: rgb(119,237,182);
-    display: block;
-    position: static;
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    overflow-y: auto;
-    text-align: center;
-    align-items: center;
 }
 #about{
     background-color: rgb(64,64,64);
     position: static;
     height: 60px;
     width: 100%;
+}
+#map{
+    background-image: map.png;
+    height: 763px;
 }
 /*Assorted Styles*/
 br{

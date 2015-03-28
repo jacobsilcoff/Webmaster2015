@@ -217,6 +217,7 @@ body{
 .linktext:hover{
     color: rgb(128,194,47);
     text-decoration: none;
+    cursor: pointer;
 }
 .battery{
     background-image: url("battery.png");

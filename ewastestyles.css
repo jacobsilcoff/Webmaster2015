@@ -27,7 +27,7 @@ body{
     z-index: 1;
 }
 #filler{
-    height: 100px;
+    height: 150px;
 }
 #othersites{
     position: absolute;
@@ -101,7 +101,6 @@ body{
     width: 80%;
     height: 90vh;
     max-height: 600px;
-    margin-top: 100px;
     padding-left: 10%;
     padding-right: 10%;
     overflow-y: auto;

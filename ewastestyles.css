@@ -220,7 +220,7 @@ body{
     margin: auto;
     display: inline-block;
     height: 400px;
-    width: 80px;
+    width: 216px;
 }
 .battery:hover{
     background-image: url("battery.png");
@@ -230,7 +230,7 @@ body{
     margin: auto;
     display: inline-block;
     height: 400px;
-    width: 80px;
+    width: 216px;
 }
 .computer{
     display: inline-block;
@@ -254,7 +254,7 @@ body{
     background-repeat: no-repeat;
     margin-right: 30px;
     height: 400px;
-    width: 139.5px;
+    width: 216px;
 }
 .phone:hover{
     background-image: url("phone1.png");
@@ -262,7 +262,7 @@ body{
     background-repeat: no-repeat;
     margin-right: 30px;
     height: 400px;
-    width: 139.5px;
+    width: 216px;
 }
 .tv{
     display: inline-block;

@@ -273,7 +273,7 @@ body{
     width: 144px;
 }
 .tv:hover{
-    background-image: url("tv1.jpg");
+    background-image: url("tv1.png");
     background-size: 144px 110px;
     background-repeat: no-repeat;
     height: 160px;

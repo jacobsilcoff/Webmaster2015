@@ -157,6 +157,8 @@ body{
 /*Assorted Styles*/
 b{
     color: rgb(40,40,40);
+    line-height: 20px;
+    height: 20px;
 }
 .subtitle{
     text-align: center;

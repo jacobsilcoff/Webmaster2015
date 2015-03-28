@@ -94,7 +94,7 @@ body{
     background-image: url("background.jpg");
     background-repeat: repeat-x;
     position: static;
-    width: 80%;
+    width: 100%;
     height: 90vh;
     max-height: 600px;
     padding-left: 10%;

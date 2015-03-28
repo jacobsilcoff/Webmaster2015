@@ -3,6 +3,7 @@ body{
     font-family: "Sans Pro", sans-serif;
     font-weight: lighter;
     height: 100%;
+    margin: auto;
 }
 .background{
     position: fixed;

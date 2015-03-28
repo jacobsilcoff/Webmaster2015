@@ -144,3 +144,176 @@ Ithaca High School offers several courses relating to the production of media of
 </body>
 
 </html>
+
+
+
+
+body{
+    margin: 0;
+    font-family: "Sans Pro", sans-serif;
+    font-weight: lighter;
+    height: 100%;
+}
+.background{
+    display: block;
+    position: fixed;
+    background-image: url("ewastec1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+}
+/*Menu*/
+#menuBar{
+    position: static;
+    top: 0;
+    height: 100px;
+    width: calc(100% - 20px);
+    padding-left: 20px;
+    padding-top: 15px;
+    background-color: rgb(64,64,64);
+    vertical-align: -15px;
+}
+#othersites{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    height: 115px;
+}
+.othersite{
+    position: relative;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: lightgray;
+    text-decoration: none;
+    padding-top: 15px;
+}
+.othersite:hover{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background-image: url("white.png");
+    background-repeat: no-repeat;
+    background-size: 200px 5px;
+    background-position: center top;
+}
+#title, #sitelinks{
+    position: static;
+    display: inline-block;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.title{
+    font-size: 40px;
+    margin: 0px;
+    color: lightgray;
+}
+.sitelink{
+    display: inline-block;
+    margin-right: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: rgb(47,128,194);
+}
+.sitelink:hover{
+    display: inline-block;
+    margin-right: 50px;
+    height: 50px;
+    background-image: url("linkblue.png");
+    background-repeat: no-repeat;
+    background-size: 200px 5px;
+    background-position: center bottom;
+    text-decoration: none;
+    color: rgb(47,128,243);
+}
+.about{
+    display: inline-block;
+    margin-right: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: lightgray;
+}
+/*Content*/
+#intro{
+    background-color: white;
+    display: block;
+    position: static;
+    height: calc(100vh - 130px);
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
+    text-align: center;
+    align-items: center;
+    z-index: 0;
+}
+#act, #of, #map, #bib{
+    background-color: white;
+    display: block;
+    position: static;
+    height: calc(100vh - 130px);
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
+    text-align: center;
+    align-items: center;
+}
+.abouttext{
+    color: white;
+}
+#more{
+    background-color: rgb(64,64,64);
+    display: block;
+    position: static;
+    min-height: 50px;
+    max-height: 50px;
+    width: 100%;
+    overflow-y: auto;
+}
+/*Assorted Styles*/
+
+.subtitle{
+    text-align: justify;
+    font-size: 24px;
+    line-height: 36px;
+}
+.centertitle{
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+}
+.bodylink{
+    color: rgb(47,128,194);
+    text-decoration: none;
+    cursor: pointer;
+}
+.bodylink:visited{
+    color: rgb(47,128,194);
+    text-decoration: none;
+    cursor: pointer;
+}
+.bodylink:hover{
+    color: purple;
+    text-decoration: none;
+    cursor: pointer;
+}
+.linktext{
+    display: inline-block;
+    vertical-align: -151px;
+    font-size: 20px;
+}
+.menuarrow{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: rotate(-90deg);
+    font-size: 36px;
+    vertical-align: middle;
+}

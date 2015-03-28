@@ -115,7 +115,7 @@ body{
     width: 100%;
 }
 #map{
-    background-image: map.png;
+    background-image: url("map.png");
     height: 763px;
 }
 /*Assorted Styles*/

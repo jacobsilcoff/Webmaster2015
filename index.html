@@ -7,16 +7,13 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 <script type="text/javascript" language="JavaScript">//<!--
-
 $ = document.getElementById.bind(document)
-
 function toggle(d) {
     var el = $(d);
 	el.style.display = el.style.display == "" ? "initial" : "";
 }
 function activate(d) {
 // Between the quotation marks, list the id values of each div.
-
 var sections = "compsci pr12 apcomp pltw ddp cim de edd mc".split(" ");
 for(var i = 0; i < sections.length; i++) $(sections[i]).style.display = "";
 $(d).style.display = "initial";
@@ -50,11 +47,12 @@ window.addEventListener('hashchange', function(event){
     <div id="filler"></div>
 <p class="text">At Ithaca High School, technology is a huge focus, with over 15 different courses <a class="bodylink" href="#courses">Learn more</a></p>
 <p class="text">An entire wing of the school devoted to technology <a class="bodylink" href="#labs">Learn more</a></p>
-<p class="text">And great teachers. <a class="bodylink" href="#contact">Learn more</a></p>
+<p class="text">And great teachers <a class="bodylink" href="#contact">Learn more</a></p>
 <div class="arrow"><a class="bodylink" href="#wastes">&#10094;</a></div>
 </div>
 <div id="courses" class="section">
-<p class="text">Ithaca High School offers a plethora of courses for students who want to learn about technology.</p>
+<p class="text">Ithaca High School offers a plethora of courses for students who want to learn about technology</p>
+
     <hr />
 <div class="menu-wrap">
     <nav class="menu">
@@ -62,20 +60,20 @@ window.addEventListener('hashchange', function(event){
             <li><a href="javascript:void 0">Computer Science</a>
             
             <ul class="sub-menu">
-                    <li><a href="#pr12">Programming 1 and 2</a></li>
+                    <li><a href="#pr12">Programming 1 &amp; 2</a></li>
                     <li><a href="#apcomp">AP Computer Science</a></li>
                 </ul>
       
             </li>
                 <li>
-                <a href="javascript:void 0">Project Lead the Way</a>
+                <a href="javascript:void 0">PLTW</a>
 
                 <ul class="sub-menu">
-                    <li><a href="#ddp">Design and Drawing for Production</a></li>
-                    <li><a href="#cim">Computer-Integrated Manufacturing</a></li>
-                    <li><a href="#de">Digital Electronics</a></li>
-                    <li><a href="#poe">Principles of Engineering</a></li>
-                    <li><a href="#edd">Engineering, Design and Development</a></li>
+                    <li><a href="#ddp">DDP</a></li>
+                    <li><a href="#cim">CIM</a></li>
+                    <li><a href="#de">DE</a></li>
+                    <li><a href="#poe">POE</a></li>
+                    <li><a href="#edd">EDD</a></li>
                 </ul>
                 
             </li>
@@ -87,7 +85,8 @@ window.addEventListener('hashchange', function(event){
 <br />
 <br />
 <hr />
-<div id="present" class="subtitle"></div>
+<div id="present" class="subtitle">
+<p class="subtitle">Ithaca High School offers a plethora of technology-related classes through its Math and Tech departments, ranging from AP Computer Science to Engineering Design and Development to Digital Media I and II. Many of the classes, such as Engineering Design and Development, are offered through the Project Lead the Way program.</p>
 <p id="compsci" class="nodisplay" class="subtitle"><b>Computer Science:</b>
 Ithaca High School’s Math Department offers three computer science courses. Since the courses concern computers, devices that are today inseparable from technology, the courses are effectively technology courses.
 <p id="pr12" class="nodisplay">Programming I and II are two semester-long classes that typically taken in succession. They are designed to prepare students to take AP Computer Science (although many students have successfully skipped to the AP level). Programming I teaches students basic programming in Java, covering objects, classes, and events, as well as basic command structures (if, else, while, etc…). At the end of the course, students embark on a final project, typically programming a game such as Battleship. In Programming II, the class takes a technical turn; students learn why what they programmed in the previous course works to a greater depth. In fact, the class is only a small step away from AP Computer Science.</p>
@@ -104,11 +103,40 @@ Ithaca High School offers several courses relating to the production of media of
 <div class="arrow"><a class="bodylink" href="#problems">&#10094;</a></div>
 </div>
 
-<div id="labs" class="section">
-<div class="arrow"><a class="bodylink" href="#contact">&#10094;</a></div>
+<div id="problems" class="section">
+<p class="smalltext">To many Americans, e-waste simply ceases to exist once it is thrown away. However, the way the technology is disposed of is important, as it can sometimes end up in a landfill or simply littered.
+<br>
+<p class="subtitle">When the technology is thrown into a landfill, <b>dangerous chemicals can seep into the environment</b> and cause <b>damage throughout the food chain</b> as plants and animals consume contaminated water and through biomagnification. That's why it's <b>illegal</b> in New York State.</p>
+<br>
+<p class="smalltext">While many chemicals in e-waste can be harmful, the most dangerous include lead, cadmium, and mercury.</p>
+<a class="text bodylink" href="javascript:HideAllShowOne('probinfo');"><center>Learn more</center</a>
+<br>
+<br>
+<div class="arrow"><a class="bodylink" href="#solutions">&#10094;</a></div>
 </div>
 
-<div id="contact" class="section">
+<div id="probinfo" class="section">
+<p id="pintro" class="text">To many Americans, e-waste simply ceases to exist once it is thrown away. However, the way the technology is disposed of is important. Commonly, the technology is thrown in a landfill, an improper method of disposal. When the e-waste is landfilled, dangerous chemicals can seep into the environment and cause damage throughout the food chain as plants and animals consume contaminated water and through biomagnification. While most chemicals in e-waste can be harmful, the most dangerous include lead, cadmium, and mercury.</p>
+<p id="lead" class="text">Lead:<br>
+Lead is present in batteries, as well as the circuit boards present in cell phones, computers, and televisions. When it seeps out of landfills and into the environment, it can be detrimental to a population’s birth rate, seen in different populations of sea otters. It is also a carcinogen, causing cancer in many animals. The widely known neurological problems that lead causes in humans are also evident in animals. Such problems notably include a decline in IQ and improper organ development in fetuses. There is good reason for the  U.S. Federal Resource Conservation and Recovery Act classifying lead as a hazardous waste.</p>
+<p id="cadm" class="text">Cadmium:<br>
+Present in older batteries and the semiconductors of televisions, computers, and cell phones, cadmium poses a threat to humans as well as plants. According to a study Carnegie Mellon University, plants experience stunted growth from cadmium poisoning. The same study concluded that humans exposed to too high levels of cadmium have an increased risk of cancer, neurological problems, and kidney stones. A study in the International Journal of ChemTech Research added birth defects to the list of troubles cadmium can cause.</p>
+<p id="mer" class="text">Mercury:<br>
+Mercury is extremely dangerous and is present in the circuit boards of computers, cell phones, and televisions. In animals and humans, it is known for being extremely damaging to the brain, especially when it combines with other elements to become methylmercury, where it can also cause blindness and impaired muscle tone. It also can cause respiratory and skin disorders.</p>
+
+<p id="legal" class="text">Legal Issues with Improper Disposal:<br>
+The improper disposal of electronics and batteries does not only have harmful effects on organisms and ecosystems; it also has legal repercussions. In New York, disposal of rechargeable batteries as solid waste has been illegal since December 5, 2011. Another New York legislation, the Electronic Equipment Recycling and Reuse Act of 2010, makes it illegal to throw away any electronic equipment, including computer, cell phones, and televisions. Failure to comply with either of these laws results in fines up to 5,000 dollars, making improper disposal of e-waste an unsavory option.</p>
+<div class="arrow"><a class="bodylink" href="#probinfo#legal">&#10094;</a></div></div>
+
+<div id="solutions" class="section">
+    <p class="text">Luckily, correct, environmentally-friendly, and legal disposal of e-waste is extremely easy in Ithaca, New York. All have to do is identify what type of e-waste you have, figure out what should happen to it, and bring it to the appropriate place.
+    </p>
+<p class="centertext">Which type of e-waste are you trying to dispose of?
+<br>
+(Click for prompts to discover how.)
+    </p>
+  
+    
 </div>
 
 <div id="about">

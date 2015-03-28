@@ -2,21 +2,29 @@ body{
     margin: 0;
     font-family: "Sans Pro", sans-serif;
     font-weight: lighter;
-    height: 100vw;
-    width: 100vw;
-    overflow-y: auto;
-    overflow-x: hidden;
+    height: 100%;
+    margin: auto;
+}
+.background{
+    position: fixed;
+    background-image: url("ewastec1.png");
+    background-repeat: repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
 }
 /*Menu*/
-#menuBar{
-    position: static;
-    top: 0;
-    min-height: 100px;
-    width: 100%;
-    padding-left: 20px;
-    padding-top: 15px;
-    background-color: rgb(64,64,64);
-    vertical-align: -15px;
+#menu{
+    position: absolute;
+    width: 80%;
+    height: 120px;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 1;
+}
+#filler{
+    height: 150px;
 }
 #othersites{
     position: absolute;
@@ -31,269 +39,224 @@ body{
     margin-left: 40px;
     margin-right: 10px;
     text-decoration: none;
-    color: lightgray;
+    color: gray;
     text-decoration: none;
     padding-top: 15px;
 }
 .othersite:hover{
     position: relative;
     text-decoration: none;
-    color: white;
-    background-image: url("white.png");
+    color: rgb(120,110,110);
+    background-image: url("gray.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
     background-position: center top;
 }
 #title, #sitelinks{
+    position: static;
     display: inline-block;
     height: 50px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 0px;
 }
 .title{
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: heavy;
     margin: 0px;
-    color: lightgray;
+    color: gray;
 }
 .sitelink{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
     text-decoration: none;
-    color: rgb(47,128,194);
+    color: rgb(94,171,0);
 }
 .sitelink:hover{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
-    background-image: url("linkblue.png");
+    background-image: url("linkgreen.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
     background-position: center bottom;
     text-decoration: none;
-    color: rgb(47,128,243);
-}
-.heading{
-    display: inline-block;
-    margin-right: 50px;
-    height: 50px;
-    text-decoration: none;
-    color: lightgray;
-    text-align: justify;
+    color: rgb(128,194,47);
 }
 /*Content*/
-#intro{
-    background-color: white;
-    display: block;
-    position: static;
+.section{
     width: 80%;
-    height: calc(100vh - 130px);
     padding-left: 10%;
     padding-right: 10%;
+    overflow-y: auto;
     text-align: center;
     align-items: center;
     z-index: 0;
 }
-#map, #bib, #present{
+#intro{
+    background-image: url("background.jpg");
+    background-repeat: repeat-x;
+    height: 90vh;
+    max-height: 600px;
+}
+#wastes{
+    background-image: url("tech.png");
+}
+#probinfo{
+    display: none;
     background-color: white;
-    display: block;
-    position: static;
-    height: calc(100vh - 50px);
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    overflow-y: auto;
 }
-#present2{
+#solutions{
+    background-color: rgb(119,237,182);
+}
+#about{
+    background-color: rgb(64,64,64);
+    position: static;
+    height: 60px;
+    width: 100%;
+}
+#map{
+    background-image: url("map.png");
+    background-repeat: no-repeat;
     background-color: white;
-    display: block;
-    position: static;
-    min-height: 500px;
-    max-height: 90vh;
-    padding: 0;
-}
-.lab{
-    display: inline-block;
-    position: static;
-    width: 49%;
-    height: 230px;
-    margin: 0;
-}
-#about, #labs, #classes{
-    background-color: rgb(74,74,74);
-    display: block;
-    padding: 0;
-    position: static;
-    overflow-y: auto;
-    text-align: center;
-}
-.e1{
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-<<<<<<< HEAD
-}
-.e4{
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-.e11{
-    background-image: url("e11.JPG");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-=======
-}
-.e4{
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-.e11{
-    background-image: url("e11.JPG");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
->>>>>>> origin/gh-pages
-.e11:hover{
-    background-image: url("e11.JPG");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-.e16{
-    background-size: 105% 105%;
-    background-repeat: no-repeat;
+    background-position: center;
+    height: 763px;
 }
 /*Assorted Styles*/
-
-.abouttext{
-    color: white;
+br{
+    color: rgb(40,40,40);
+    line-height: 20px;
+    height: 20px;
 }
 .subtitle{
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+}
+.text{
     text-align: justify;
     font-size: 24px;
     line-height: 36px;
 }
-.centertitle{
+.smalltext{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 24px;
+}
+.centertext{
     text-align: center;
     font-size: 24px;
     line-height: 36px;
 }
 .bodylink{
-    color: rgb(47,128,194);
-    text-decoration: none;
-    cursor: pointer;
-}
-.bodylink:visited{
-    color: rgb(47,128,194);
+    color: rgb(94,171,0);
     text-decoration: none;
     cursor: pointer;
 }
 .bodylink:hover{
-    color: purple;
+    color: rgb(128,194,47);
     text-decoration: none;
     cursor: pointer;
 }
 .linktext{
+    color: rgb(94,171,0);
     display: inline-block;
-    vertical-align: -151px;
     font-size: 20px;
-}
-.arrow{
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-    transform: rotate(-90deg);
-    font-size: 36px;
-    vertical-align: middle;
-}
-.nodisplay{
-    display: none;
-}
-.clearfix:after {
-    display:block;
-    clear:both;
-}
- 
-/*----- Menu Outline -----*/
-.menu-wrap {
-    width:100%;
-    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-    background:#3e3436;
-}
- 
-.menu {
-    width:1000px;
-    margin:0px auto;
-}
- 
-.menu li {
-    margin:0px;
-    list-style:none;
-    font-family:'Arial';
-}
- 
-.menu a {
-    transition:all linear 0.15s;
-    color:rgb(47,127,194);/*Grey unselected text*/
-}
- 
-.menu li:hover > a, .menu .current-item > a {
-    text-decoration:none;
-    color:rgb(47,127,243);/*Selected text -- blue*/
-}
- 
-/*----- Top Level -----*/
-.menu > ul > li {
-    float:left;
-    display:inline-block;
-    position:relative;
-    font-size:19px;
-}
- 
-.menu > ul > li > a {
-    padding:10px 40px;
-    display:inline-block;
-    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
-}
- 
-.menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background:#646464;
-}
- 
-/*----- Bottom Level -----*/
-.menu li:hover .sub-menu {
-    z-index:1;
-    opacity:1;
-}
- 
-.sub-menu {
-    width:100%;
-    padding:5px 0px;
-    position:absolute;
-    top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background:#646464;/*Background of tab*/
-}
- 
-.sub-menu li {
-    display:block;
-    font-size:16px;
-}
- 
-.sub-menu li a {
-    padding:10px 30px;
-    display:block;
-}
- 
-.sub-menu li a:hover, .sub-menu .current-item a {
-    background:#0A004A;
-}
-
-.menu-wrap a
-{
     text-decoration: none;
 }
+
+.linktext:hover{
+    color: rgb(128,194,47);
+    text-decoration: none;
+    cursor: pointer;
+}
+.about{
+    color: lightgray;
+    font-size: 36px;
+    margin-left: 10%;
+    margin-right: 50px;
+}
+.battery{
+    background-image: url("battery.png");
+    background-size: 60px 165px;
+    background-repeat: no-repeat;
+    background-position: center top; 
+    margin: auto;
+    display: inline-block;
+    height: 300px;
+    width: 216px;
+    text-align: center;
+}
+.battery:hover{
+    background-image: url("battery.png");
+    background-size: 60px 165px;
+    background-repeat: no-repeat;
+    background-position: center top; 
+    display: inline-block;
+    height: 300px;
+    width: 216px;
+}
+.computer{
+    display: inline-block;
+    background-image: url("computer.png");
+    background-size: 216px 165px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 216px;
+    text-align: center;
+}
+.computer:hover{
+    background-image: url("computer1.png");
+    background-size: 216px 165px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 216px;
+}
+.phone{
+    display: inline-block;
+    background-image: url("phone.png");
+    background-size: 139.5px 165px;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    height: 300px;
+    width: 216px;
+    text-align: center;
+}
+.phone:hover{
+    background-image: url("phone1.png");
+    background-size: 139.5px 165px;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    height: 300px;
+    width: 216px;
+}
+.tv{
+    display: inline-block;
+    background-image: url("tv.png");
+    background-size: 216px 165px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 216px;
+    text-align: center;
+}
+.tv:hover{
+    background-image: url("tv1.png");
+    background-size: 216px 165px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 216px;
+}
+.arrow{
+    display: inline-block;
+    margin-top: ;
+   -webkit-transform: rotate(-90deg);
+   -ms-transform: rotate(-90deg);
+   -mz-transform: rotate(-90deg);
+   -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    font-size: 60px;
+    vertical-align: middle;
+    font-family: 'Zapf Dingbats';
+}
+
+/*JS Stuff*/

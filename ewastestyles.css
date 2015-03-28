@@ -122,11 +122,13 @@ body{
     text-align: center;
     align-items: center;
 }
-#solutions{
-    background-color: rgb(119,237,182);
+#probinfo{
+    display: none;
+}
+#problems{
     display: block;
     position: static;
-    height: 90vh;
+    height: 50vh;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
@@ -134,10 +136,11 @@ body{
     text-align: center;
     align-items: center;
 }
-#problems{
+#solutions{
+    background-color: rgb(119,237,182);
     display: block;
     position: static;
-    height: 50vh;
+    height: 90vh;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;

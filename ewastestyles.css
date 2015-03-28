@@ -88,6 +88,8 @@ body{
     background-image: url("background.jpg");
     background-repeat: repeat-x;
     position: static;
+    height: 90vh;
+    max-height: 600px;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;

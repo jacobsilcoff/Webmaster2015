@@ -140,19 +140,6 @@ body{
     text-align: center;
     align-items: center;
 }
-#probinfo{
-    animation-name: expand;
-    -webkit-animation-name: expand;
-    display: none;
-}
-@keyframes expand {
-    from {height: 0vh}
-    to {height: 90vh;}
-}
-@-webkit-keyframes expand {
-    from {height: 0vh}
-    to {height: 90vh;}
-}
 #problems{
     display: block;
     position: static;
@@ -164,20 +151,15 @@ body{
     text-align: center;
     align-items: center;
 }
-.abouttext{
-    color: white;
-}
 #about{
     background-color: rgb(64,64,64);
-    display: block;
     position: static;
-    min-height: 50px;
-    max-height: 50px;
+    min-height: 70px;
+    max-height: 70px;
     width: 100%;
-    overflow-y: auto;
+    padding-left: 10%;
 }
 /*Assorted Styles*/
-
 .text{
     text-align: justify;
     font-size: 24px;
@@ -204,12 +186,14 @@ body{
     font-size: 20px;
     text-decoration: none;
 }
-
 .linktext:hover{
     color: rgb(128,194,47);
     text-decoration: none;
     cursor: pointer;
 }
+.abouttext{
+    color: white;
+    font-size: 36px;
 .battery{
     background-image: url("battery.png");
     background-size: 60px 165px;

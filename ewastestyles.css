@@ -208,9 +208,15 @@ body{
     cursor: pointer;
 }
 .linktext{
+    color: rgb(94,171,0);
     display: inline-block;
-    vertical-align: -151px;
-    font-size: 14px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.linktext:hover{
+    color: rgb(128,194,47);
+    text-decoration: none;
 }
 .battery{
     background-image: url("battery.png");
@@ -267,14 +273,14 @@ body{
 .tv{
     display: inline-block;
     background-image: url("tv.png");
- background-size: 216px 165px;
+    background-size: 216px 165px;
     background-repeat: no-repeat;
     height: 400px;
     width: 216px;
 }
 .tv:hover{
     background-image: url("tv1.png");
-background-size: 216px 165px;
+    background-size: 216px 165px;
     background-repeat: no-repeat;
     height: 400px;
     width: 216px;

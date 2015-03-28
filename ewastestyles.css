@@ -257,7 +257,7 @@ body{
     width: 144px;
 }
 .phone:hover{
-    background-image: url("phone1.png");
+    background-image: url("phone1.jpg");
     background-size: 93px 110px;
     background-repeat: no-repeat;
     margin-right: 30px;

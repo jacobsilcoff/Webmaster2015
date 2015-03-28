@@ -145,16 +145,11 @@ body{
     text-align: center;
     align-items: center;
 }
-.abouttext{
-    color: white;
-    font-size: 36px;
-}
 #about{
     background-color: rgb(64,64,64);
     position: static;
     height: 60px;
     width: 100%;
-    padding-left: 10%;
 }
 /*Assorted Styles*/
 

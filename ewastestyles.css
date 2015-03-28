@@ -155,7 +155,12 @@ body{
     width: 100%;
 }
 /*Assorted Styles*/
-
+.subtitle{
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    color: rgb(119,237,182);
+}
 .text{
     text-align: justify;
     font-size: 24px;

@@ -6,7 +6,7 @@ body{
 }
 .background{
     position: fixed;
-    background-image: url("ewastec1.jpg");
+    background-image: url("ewastec1.png");
     background-repeat: repeat;
     background-size: contain;
     height: 100%;

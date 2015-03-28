@@ -5,7 +5,35 @@
 <meta charset="UTF-8">
 <title>Design Brief</title>
 <link rel="stylesheet" type="text/css" href="ewastestyles.css">
-<script src="scripts.js"></script>
+<script type="text/javascript" language="JavaScript"><!--
+
+function HideContent(d) {
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+document.getElementById(d).style.display = "block";
+}
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+
+function HideAllShowOne(d) {
+// Between the quotation marks, list the id values of each div.
+
+var IDvaluesOfEachDiv = "probinfo";
+
+//-------------------------------------------------------------
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/\s*$/,"");
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/  +/g," ");
+var IDlist = IDvaluesOfEachDiv.split(" ");
+for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
+ShowContent(d);
+}
+
+//--></script>
 </head>
 
 <body>
@@ -75,7 +103,7 @@ But it can be stopped. <a class="bodylink" href="#solutions">Learn more</a></p>
 </div>
 
 <div id="problems">
-<p class="text">The improper disposal of e-waste can result in environmental problems, as many extremely harmful chemicals found in e-waste such as <a class="bodylink" href="#probinfo#lead">lead</a>, <a class="bodylink" href="#probinfo#cadm">cadmium</a>, and <a class="bodylink" href="#probinfo#mer">mercury</a> can seep out of landfills. <a class="bodylink" href="#probinfo">Learn more</a></p>
+<p class="text">The improper disposal of e-waste can result in environmental problems, as many extremely harmful chemicals found in e-waste such as <a class="bodylink" href="#probinfo#lead">lead</a>, <a class="bodylink" href="#probinfo#cadm">cadmium</a>, and <a class="bodylink" href="#probinfo#mer">mercury</a> can seep out of landfills. <a class="bodylink" href="javascript:HideAllShowOne('probinfo');">Learn more</a></p>
 
 <p class="text">Also, improper disposal of e-waste is illegal in New York State. <a class="bodylink" href="#probinfo#legal">Learn more</a></p>
 <br>

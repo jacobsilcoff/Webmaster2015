@@ -116,6 +116,9 @@ body{
 }
 #map{
     background-image: url("map.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
     height: 763px;
 }
 /*Assorted Styles*/

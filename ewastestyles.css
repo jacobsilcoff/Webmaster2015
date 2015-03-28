@@ -83,13 +83,6 @@ body{
     text-decoration: none;
     color: rgb(128,194,47);
 }
-.about{
-    display: inline-block;
-    margin-right: 50px;
-    height: 50px;
-    text-decoration: none;
-    color: lightgray;
-}
 /*Content*/
 #intro{
     background-image: url("background.jpg");
@@ -197,9 +190,11 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
-.abouttext{
-    color: white;
+.about{
+    color: lightgray;
     font-size: 36px;
+    margin-left: 10%;
+    margin-right: 50px;
 }
 .battery{
     background-image: url("battery.png");

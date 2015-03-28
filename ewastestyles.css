@@ -269,6 +269,9 @@ body{
     display: inline-block;
     margin: auto;
    -webkit-transform: rotate(-90deg);
+   -ms-transform: rotate(-90deg);
+   -mz-transform: rotate(-90deg);
+   -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     font-size: 60px;
     vertical-align: middle;

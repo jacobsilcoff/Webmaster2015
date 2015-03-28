@@ -38,7 +38,7 @@ body{
     color: rgb(120,110,110);
     background-image: url("gray.png");
     background-repeat: no-repeat;
-    background-size: 200px 5px;
+    background-size: 250px 5px;
     background-position: center top;
 }
 #title, #sitelinks{
@@ -267,9 +267,6 @@ body{
 }
 .arrow{
     display: inline-block;
-    margin-top: auto;
-    margin-bottom: auto;
-    transform: rotate(-90deg);
-    font-size: 36px;
-    vertical-align: middle;
+    background-image: url("arrow.png");
+    margin: auto;
 }

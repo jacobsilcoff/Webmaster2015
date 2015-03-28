@@ -6,24 +6,6 @@
 <title>Design Brief</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-<script type="text/javascript" language="JavaScript">//<!--
-$ = document.getElementById.bind(document)
-function toggle(d) {
-    var el = $(d);
-	el.style.display = el.style.display == "" ? "initial" : "";
-}
-function activate(d) {
-// Between the quotation marks, list the id values of each div.
-var sections = "compsci pr12 apcomp pltw ddp cim de edd mc".split(" ");
-for(var i = 0; i < sections.length; i++) $(sections[i]).style.display = "";
-$(d).style.display = "initial";
-}
-window.addEventListener('hashchange', function(event){
-  var x = location.hash.substring(1);
-  activate(x);
-}
-//-->
-</script>
 
 
 </head>

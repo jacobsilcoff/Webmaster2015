@@ -83,7 +83,7 @@ body{
 }
 /*Content*/
 #intro{
-    background-image: url("background.png");
+    background-image: url("background.jpg");
     background-repeat: repeat-x;
     display: block;
     position: static;

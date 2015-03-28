@@ -89,8 +89,6 @@ body{
     background-repeat: repeat-x;
     position: static;
     width: 80%;
-    height: 90vh;
-    max-height: 600px;
     padding-left: 10%;
     padding-right: 10%;
     overflow-y: auto;
@@ -102,7 +100,6 @@ body{
     display: block;
     position: static;
     width: 80%;
-    height: 500px;
     padding-left: 10%;
     padding-right: 10%;
     overflow-y: auto;
@@ -114,7 +111,6 @@ body{
     background-color: white;
     display: block;
     position: static;
-    height: 90vh;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
@@ -128,7 +124,6 @@ body{
 #problems{
     display: block;
     position: static;
-    height: 50vh;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
@@ -140,7 +135,6 @@ body{
     background-color: rgb(119,237,182);
     display: block;
     position: static;
-    height: 90vh;
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;

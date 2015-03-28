@@ -151,15 +151,20 @@ body{
     text-align: center;
     align-items: center;
 }
+.abouttext{
+    color: white;
+    font-size: 36px;
+}
 #about{
     background-color: rgb(64,64,64);
     position: static;
-    min-height: 70px;
-    max-height: 70px;
+    min-height: 50px;
+    max-height: 50px;
     width: 100%;
     padding-left: 10%;
 }
 /*Assorted Styles*/
+
 .text{
     text-align: justify;
     font-size: 24px;
@@ -186,6 +191,7 @@ body{
     font-size: 20px;
     text-decoration: none;
 }
+
 .linktext:hover{
     color: rgb(128,194,47);
     text-decoration: none;
@@ -194,6 +200,7 @@ body{
 .abouttext{
     color: white;
     font-size: 36px;
+}
 .battery{
     background-image: url("battery.png");
     background-size: 60px 165px;

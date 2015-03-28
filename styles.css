@@ -2,29 +2,21 @@ body{
     margin: 0;
     font-family: "Sans Pro", sans-serif;
     font-weight: lighter;
-    height: 100%;
-    margin: auto;
-}
-.background{
-    position: fixed;
-    background-image: url("ewastec1.png");
-    background-repeat: repeat;
-    background-size: contain;
-    height: 100%;
-    width: 100%;
-    z-index: -10;
+    height: 100vw;
+    width: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 /*Menu*/
-#menu{
-    position: absolute;
-    width: 80%;
-    height: 120px;
-    padding-left: 10%;
-    padding-right: 10%;
-    z-index: 1;
-}
-#filler{
-    height: 150px;
+#menuBar{
+    position: static;
+    top: 0;
+    min-height: 100px;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 15px;
+    background-color: rgb(64,64,64);
+    vertical-align: -15px;
 }
 #othersites{
     position: absolute;
@@ -39,31 +31,29 @@ body{
     margin-left: 40px;
     margin-right: 10px;
     text-decoration: none;
-    color: gray;
+    color: lightgray;
     text-decoration: none;
     padding-top: 15px;
 }
 .othersite:hover{
     position: relative;
     text-decoration: none;
-    color: rgb(120,110,110);
-    background-image: url("gray.png");
+    color: white;
+    background-image: url("white.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
     background-position: center top;
 }
 #title, #sitelinks{
-    position: static;
     display: inline-block;
     height: 50px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 .title{
-    font-size: 60px;
-    font-weight: heavy;
+    font-size: 40px;
     margin: 0px;
-    color: gray;
+    color: lightgray;
 }
 .sitelink{
     display: inline-block;
@@ -83,64 +73,107 @@ body{
     text-decoration: none;
     color: rgb(47,128,243);
 }
+.heading{
+    display: inline-block;
+    margin-right: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: lightgray;
+    text-align: justify;
+}
 /*Content*/
-.section{
+#intro{
+    background-color: white;
+    display: block;
+    position: static;
     width: 80%;
+    height: calc(100vh - 130px);
     padding-left: 10%;
     padding-right: 10%;
-    overflow-y: auto;
     text-align: center;
     align-items: center;
     z-index: 0;
 }
-#intro{
-    height: 90vh;
-    max-height: 600px;
-}
-#courses{
-    
-}
-#labs{
-    
-}
-#contact{
-    background-color: rgb(119,237,182);
-}
-#about{
-    background-color: rgb(64,64,64);
-    position: static;
-    height: 60px;
-    width: 100%;
-}
-#map{
-    background-image: url("map.png");
-    background-repeat: no-repeat;
+#map, #bib, #present{
     background-color: white;
-    background-position: center;
-    height: 763px;
+    display: block;
+    position: static;
+    height: calc(100vh - 50px);
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
+}
+#present2{
+    background-color: white;
+    display: block;
+    position: static;
+    min-height: 500px;
+    max-height: 90vh;
+    padding: 0;
+}
+.lab{
+    display: inline-block;
+    position: static;
+    width: 49%;
+    height: 230px;
+    margin: 0;
+}
+#about, #labs, #classes{
+    background-color: rgb(74,74,74);
+    display: block;
+    padding: 0;
+    position: static;
+    overflow-y: auto;
+    text-align: center;
+}
+.e1{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+<<<<<<< HEAD
+}
+.e4{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.e11{
+    background-image: url("e11.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+=======
+}
+.e4{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.e11{
+    background-image: url("e11.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+>>>>>>> origin/gh-pages
+.e11:hover{
+    background-image: url("e11.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.e16{
+    background-size: 105% 105%;
+    background-repeat: no-repeat;
 }
 /*Assorted Styles*/
-br{
-    color: rgb(40,40,40);
-    line-height: 20px;
-    height: 20px;
+
+.abouttext{
+    color: white;
 }
 .subtitle{
-    text-align: center;
-    font-size: 30px;
-    line-height: 36px;
-}
-.text{
     text-align: justify;
     font-size: 24px;
     line-height: 36px;
 }
-.smalltext{
-    text-align: justify;
-    font-size: 18px;
-    line-height: 24px;
-}
-.centertext{
+.centertitle{
     text-align: center;
     font-size: 24px;
     line-height: 36px;
@@ -150,43 +183,29 @@ br{
     text-decoration: none;
     cursor: pointer;
 }
+.bodylink:visited{
+    color: rgb(47,128,194);
+    text-decoration: none;
+    cursor: pointer;
+}
 .bodylink:hover{
-    color: rgb(47,128,243);
+    color: purple;
     text-decoration: none;
     cursor: pointer;
 }
 .linktext{
-    color: rgb(47,128,194);
     display: inline-block;
+    vertical-align: -151px;
     font-size: 20px;
-    text-decoration: none;
-}
-
-.linktext:hover{
-    color: rgb(47,128,243);
-    text-decoration: none;
-    cursor: pointer;
-}
-.about{
-    color: lightgray;
-    font-size: 36px;
-    margin-left: 10%;
-    margin-right: 50px;
 }
 .arrow{
-    display: inline-block;
-    margin-top: ;
-   -webkit-transform: rotate(-90deg);
-   -ms-transform: rotate(-90deg);
-   -mz-transform: rotate(-90deg);
-   -o-transform: rotate(-90deg);
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
     transform: rotate(-90deg);
-    font-size: 60px;
+    font-size: 36px;
     vertical-align: middle;
-    font-family: 'Zapf Dingbats';
 }
-
-/*JS Stuff*/
 .nodisplay{
     display: none;
 }

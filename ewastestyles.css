@@ -59,7 +59,7 @@ body{
     margin-right: 50px;
     height: 50px;
     text-decoration: none;
-    color: rgb(128,194,47);
+    color: rgb(94,171,0);
 }
 .sitelink:hover{
     display: inline-block;
@@ -70,7 +70,7 @@ body{
     background-size: 200px 5px;
     background-position: center bottom;
     text-decoration: none;
-    color: rgb(128,243,47);
+    color: rgb(128,194,47);
 }
 .about{
     display: inline-block;
@@ -184,12 +184,12 @@ body{
     line-height: 36px;
 }
 .bodylink{
-    color: rgb(128,194,47);
+    color: rgb(94,171,0);
     text-decoration: none;
     cursor: pointer;
 }
 .bodylink:hover{
-    color: rgb(128,243,47);
+    color: rgb(128,194,47);
     text-decoration: none;
     cursor: pointer;
 }

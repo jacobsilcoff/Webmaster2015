@@ -5,7 +5,6 @@ body{
     height: 100%;
 }
 .background{
-    display: block;
     position: fixed;
     background-image: url("ewastec1.jpg");
     background-repeat: repeat;
@@ -16,14 +15,11 @@ body{
 }
 /*Menu*/
 #menu{
-    display: block;
     position: absolute;
     width: 80%;
-    height: 115px;
-    max-height: 600px;
+    height: 120px;
     padding-left: 10%;
     padding-right: 10%;
-    overflow-y: auto;
     z-index: 1;
 }
 #filler{
@@ -182,19 +178,9 @@ body{
 }
 /*Assorted Styles*/
 
-.subtitle{
+.text{
     text-align: justify;
     font-size: 24px;
-    line-height: 36px;
-}
-.menulinks{
-    text-align: justify;
-    font-size: 14px;
-    line-height: 36px;
-}
-.centertitle{
-    text-align: left;
-    font-size: 30px;
     line-height: 36px;
 }
 .bodylink{

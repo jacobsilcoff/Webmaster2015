@@ -191,7 +191,7 @@ br{
 /*----- Menu Outline -----*/
 .menu-wrap {
     width:100%;
-    background: rgb(100,100,100);
+    background: white;
 }
  
 .menu {
@@ -228,7 +228,7 @@ br{
 }
  
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background: rgb(100,100,100);
+    background: white;
 }
  
 /*----- Bottom Level -----*/

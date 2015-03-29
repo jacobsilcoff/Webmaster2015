@@ -184,7 +184,6 @@ br{
     vertical-align: middle;
     font-family: 'Zapf Dingbats';
 }
-
 /*JS Stuff*/
 #cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc{
     display: none;
@@ -194,27 +193,22 @@ br{
     width:100%;
     background: white;
 }
- 
 .menu {
     width:1000px;
     margin:0px auto;
 }
- 
 .menu li {
     margin:0px;
     list-style:none;
 }
- 
 .menu a {
     transition:all linear 0.15s;
     color:rgb(47,127,194);
 }
- 
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:rgb(47,127,243);/*Selected text -- blue*/
 }
- 
 /*----- Top Level -----*/
 .menu > ul > li {
     float:left;
@@ -222,22 +216,18 @@ br{
     position: relative;
     font-size: 24px;
 }
- 
 .menu > ul > li > a {
     padding:10px 40px;
     display:inline-block;
 }
- 
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
     background: white;
 }
- 
 /*----- Bottom Level -----*/
 .menu li:hover .sub-menu {
     z-index:1;
     opacity:1;
 }
- 
 .sub-menu {
     width:100%;
     padding:5px 0px;
@@ -249,21 +239,17 @@ br{
     transition:opacity linear 0.15s;
     background: white;/*Background of tab*/
 }
- 
 .sub-menu li {
     display:block;
     font-size:18px;
 }
- 
 .sub-menu li a {
     padding:10px 30px;
     display:block;
 }
- 
 .sub-menu li a:hover, .sub-menu .current-item a {
     color: rgb(47,128,243);
 }
-
 .menu-wrap a
 {
     text-decoration: none;

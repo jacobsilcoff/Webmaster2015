@@ -98,6 +98,7 @@ body{
     max-height: 600px;
 }
 #courses{
+    min-height: 400px;
 }
 #labs{
     

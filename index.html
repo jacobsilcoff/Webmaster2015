@@ -7,7 +7,6 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script type="text/javascript" language="JavaScript"><!--
 <!--
-
 function HideContent(d) {
 document.getElementById(d).style.display = "none";
 }
@@ -18,12 +17,9 @@ function ReverseDisplay(d) {
 if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
 else { document.getElementById(d).style.display = "none"; }
 }
-
 function HideAllShowOne(d) {
 // Between the quotation marks, list the id values of each div.
-
-var IDvaluesOfEachDiv = "cs pr12 apcomp pltw ddp cim de edd mc e1 e4 e11 e16 bre cas cow kry sau";
-
+var IDvaluesOfEachDiv = "cs pr12 apcomp pltw ddp cim de edd mc";
 //-------------------------------------------------------------
 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
@@ -33,7 +29,6 @@ var IDlist = IDvaluesOfEachDiv.split(" ");
 for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
 ShowContent(d);
 }
-
 //-->
 </script>
 
@@ -111,10 +106,10 @@ Ithaca High School offers several courses relating to the production of media of
     <div class="menu-wrap">
     <nav class="menu">
         <ul class="clearfix">
-            <li><a href="javascript:HideAllShowOne('e1');">E1 Automotive</a></li>
-            <li><a href="javascript:HideAllShowOne('e4');">E4 Printing</a></li>
-            <li><a href="javascript:HideAllShowOne('e11');">E11 Woodwork</a></li>
-            <li><a href="javascript:HideAllShowOne('e16');">E16 Metalwork</a></li>
+            <li><a href="javascript:HideAllShowOne('e1');">E1 Automotive</a>
+            <li><a href="javascript:HideAllShowOne('e4');">E4 Printing</a>
+            <li><a href="javascript:HideAllShowOne('e11');">E11 Woodwork</a>
+            <li><a href="javascript:HideAllShowOne('e16');">E16 Metalwork</a>
             
         </ul>
     </nav>

@@ -89,6 +89,9 @@ body{
     z-index: 0;
 }
 #intro{
+    background-image: url("techbackground.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
     height: 90vh;
     max-height: 600px;
 }

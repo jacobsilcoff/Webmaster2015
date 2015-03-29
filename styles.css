@@ -85,7 +85,7 @@ body{
     overflow-y: auto;
     text-align: center;
     align-items: center;
-    min-height: 400px;
+    min-height: 600px;
     z-index: 0;
 }
 #intro{

@@ -91,7 +91,7 @@ body{
 #intro{
     background-image: url("techbackground.png");
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: right bottom;
     height: 90vh;
     max-height: 600px;
 }

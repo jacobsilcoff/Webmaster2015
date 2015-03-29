@@ -232,7 +232,7 @@ br{
 }
  
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background:#646464;
+    background: rgb(100,100,100);
 }
  
 /*----- Bottom Level -----*/
@@ -251,7 +251,7 @@ br{
     opacity:0;
     transition:opacity linear 0.15s;
     box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background:#646464;/*Background of tab*/
+    background: rgb(100,100,100);/*Background of tab*/
 }
  
 .sub-menu li {

@@ -53,6 +53,9 @@ body{
     background-position: center top;
 }
 #title, #sitelinks{
+    background-image: url("techlogo.jpg");
+    background-repeat: none;
+    background size: contain;
     position: static;
     display: inline-block;
     height: 50px;

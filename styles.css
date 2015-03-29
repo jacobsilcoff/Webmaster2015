@@ -187,7 +187,7 @@ br{
 }
 
 /*JS Stuff*/
-.nodisplay{
+#cs, #pr12, #apcomp {
     display: none;
 }
 /*----- Menu Outline -----*/

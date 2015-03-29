@@ -85,6 +85,7 @@ body{
     overflow-y: auto;
     text-align: center;
     align-items: center;
+    min-height: 400px;
     z-index: 0;
 }
 #intro{
@@ -177,7 +178,7 @@ br{
     font-family: 'Zapf Dingbats';
 }
 /*JS Stuff*/
-#cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc{
+#cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc, #e1, #e4, #e11, #e16, #bre, #cas, #cow, #kry, #sau{
     display: none;
 }
 /*----- Menu Outline -----*/

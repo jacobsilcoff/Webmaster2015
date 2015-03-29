@@ -6,6 +6,7 @@
 <title>Design Brief</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script type="text/javascript" language="JavaScript"><!--
+<!--
 
 function HideContent(d) {
 document.getElementById(d).style.display = "none";
@@ -17,9 +18,12 @@ function ReverseDisplay(d) {
 if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
 else { document.getElementById(d).style.display = "none"; }
 }
+
 function HideAllShowOne(d) {
 // Between the quotation marks, list the id values of each div.
-var IDvaluesOfEachDiv = "cs pr12 apcomp pltw ddp cim de poe edd mc";
+
+var IDvaluesOfEachDiv = "cs";
+
 //-------------------------------------------------------------
 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
@@ -29,7 +33,8 @@ var IDlist = IDvaluesOfEachDiv.split(" ");
 for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
 ShowContent(d);
 }
-//--></script>
+
+//-->
 
 
 </head>

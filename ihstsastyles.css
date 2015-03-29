@@ -95,12 +95,13 @@ body{
     height: 90vh;
     max-height: 600px;
 }
-#courses{
-    min-height: 400px;
+#act{
 }
-#labs{
+#fun{
 }
-#contact{
+#lea{
+}
+#leainfo{
 }
 #about{
     background-color: rgb(64,64,64);
@@ -185,8 +186,13 @@ br{
     vertical-align: middle;
     font-family: 'Zapf Dingbats';
 }
+.officer{
+	display: inline-block;
+	max-height: 350px;
+	max-width: 35opx;
+}
 /*JS Stuff*/
-#cat, #co2, #vg, #ch, #cr, #vg, #leainfo{
+#cat, #co2, #vg, #ch, #cr, #be, #leainfo{
     display: none;
 }
 /*----- Menu Outline -----*/

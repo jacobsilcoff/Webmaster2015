@@ -92,6 +92,7 @@ body{
     background-image: url("techbackground.png");
     background-repeat: no-repeat;
     background-position: right bottom;
+    background-size: auto 500px;
     height: 90vh;
     max-height: 600px;
 }

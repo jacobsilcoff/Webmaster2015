@@ -7,7 +7,7 @@ body{
 }
 /*Menu*/
 #menu{
-    background-image: url("techlogo.JPG");
+    background-image: url("techlogo.png");
     background-repeat: none;
     background size: contain;
     position: absolute;

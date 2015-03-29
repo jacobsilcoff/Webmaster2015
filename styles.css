@@ -116,6 +116,11 @@ body{
     background-position: center;
     height: 763px;
 }
+#footer{
+	height: 1px;
+	width: 100%;
+	background-color: gray
+}
 /*Assorted Styles*/
 br{
     color: rgb(40,40,40);

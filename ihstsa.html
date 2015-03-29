@@ -4,61 +4,112 @@
 <head>
 <meta charset="UTF-8">
 <title>Design Brief</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="ihstsastyles.css">
+<script type="text/javascript" language="JavaScript"><!--
+<!--
+function HideContent(d) {
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+document.getElementById(d).style.display = "block";
+}
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+function HideAllShowOne(d) {
+// Between the quotation marks, list the id values of each div.
+var IDvaluesOfEachDiv = "cat co2 vg ch cr be leainfo";
+//-------------------------------------------------------------
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/\s*$/,"");
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/  +/g," ");
+var IDlist = IDvaluesOfEachDiv.split(" ");
+for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
+ShowContent(d);
+}
+//-->
+</script>
+
 </head>
 
 <body>
-<div id = "menuBar">
-    <div id="othersites" class="subtitle">
-        <a class="othersite" href="index.html">IHS Tech</a>
-    </div>
-    <p id="title" class="title">Ithaca High School TSA</p>
+<div id="menu">
+<p id="title" class="title">Ithaca High School TSA</p>
     <br>
-    <div id="sitelinks" class="subtitle">
-        <a class="sitelink" href="#act">Activities</a> 
-        <a class="sitelink" href="#of">Officers</a>
-        <a class="sitelink" href="#more">More</a>
+    <div id="sitelinks" class="text">
+    	<a class="sitelink" href="#act">Activities</a>
+        <a class="sitelink" href="#fun">Fundraising</a> 
+        <a class="sitelink" href="#lea">Leadership</a>
+        <a class="sitelink" href="#about">About</a>
     </div>
-    <div id="othersites" class="subtitle">
-        <a class="othersite" href="ewaste.html">Design Brief</a>
+    <div id="othersites" class="text">
+        <a class="othersite" href="ewaste.html"><span class="movedown">Design Brief on E-waste</span></s></a>
     </div>
-        
-</div>
-
-<div id="intro">
-<p class="centertitle">Students in the Ithaca High School Technology Student Association chapter aspire to be leaders in the increasingly technological world. They spend their time in the club learning about a diverse set of technologies and competing in events.<a class="bodylink" href="#Activities">Learn more</a>
-<br>
-<br>
-Directed by a team of five officers and two wonderful advisors, Ithaca High School TSA has a great leadership team. <a class="bodylink" href="#Officers">Learn more</a></p>
-<br>
-<br>
-<br>
-<br>
-<br>
-
+    </div>
+    <div id="intro" class="section">
+    <div id="filler"></div>
+<p class="text">Students in the Ithaca High School Technology Student Association chapter aspire to be leaders in the increasingly technological world. <a class="bodylink" href="#act">Learn more</a></p>
+<p class="text">Fundraising to go to and preparing for state and national competitions. <a class="bodylink" href="#fun">Learn more</a></p>
+<p class="text">We have great leadership. <a class="bodylink" href="#lea">Learn more</a></p>
 <div class="arrow"><a class="bodylink" href="#act">&#10094;</a></div>
 </div>
-
-<div id="act">
-<p class="subtitle">Activities</p>
-
-<br>
-<div class="arrow"><a class="bodylink" href="#of">&#10094;</a></div>
+<div id="act" class="section">
+    <p class="text">We compete in technology-themed TSA events to learn about the technological world. Here are some of our favorites of this year:</p>
+    <hr>
+    <div class="menu-wrap">
+    <nav class="menu">
+        <ul class="clearfix">
+            <li><a href="javascript:HideAllShowOne('cat');">Catapult</a>
+            <li><a href="javascript:HideAllShowOne('co2');">CO2 Dragster</a>
+            <li><a href="javascript:HideAllShowOne('vg');">Video Game Design</a>
+            
+        </ul>
+    </nav>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <p id="cat" class="text">
+	Catapult</p>
+<p id="co2" class="text">CO2 Dragster</p>
+<p id="vg" class="text">Video Game Design</p>
+    <br>
+<div class="arrow"><a class="bodylink" href="#labs">&#10094;</a></div>
 </div>
 
-<div id="of">
-<p class="subtitle">Officers:</p>
+<div id="fundraising" class="section">
+    <p class="text">With many students <b>to poor</b> to easily spend roughly $1,000 going to the TSA National Competition, <b>fundraising is a big part of being in IHSTSA</b>. We fundraise by <a class="bodylink" href="javascript:HideAllShowOne('ch');"><b>selling chocolate bars</b></a>, <a class="bodylink" href="javascript:HideAllShowOne('cr');"><b>crowdfunding</b></a>, and by ensuring that our fundraising efforts <a class="bodylink" href="javascript:HideAllShowOne('be');"><b>benefit the students who need the most help.</b></a></p>
+    
+    <p id="ch" class="text">Chocolate Bars</p>
+    <p id="cr" class="text">Crowdfunding</p>
+    <p id="be" class="text">Benefit</p>
+    <div class="arrow"><a class="bodylink" href="#contact">&#10094;</a></div>
 </div>
 
-<div id="more">
-    <div id="sitelinks" class="subtitle">
-    <a class="about">More</a>
-    <a class="sitelink" href="#map">Site Map</a>
-    <a class="sitelink" href="#bib">Bibliography</a></p>
+<div id="lea" class="section">
+    <p class="text">IHSTSA's leadership team is composed of five student officers and Mr. Sauve, the club advisor. <a class="bodylink" href="javascript:HideAllShowOne('leainfo');">Learn more</a></p>
+    
+</div>
+
+<div id="leainfo" class="section">
+    <p class="text">IHSTSA's leadership team is composed of five student officers and Mr. Sauve, the club advisor. <a class="bodylink" href="javascript:HideAllShowOne('leainfo');">Learn more</a></p>
+    
+</div>
+
+<div id="about">
+    <span class="about">About:</span>
+    <div id="sitelinks" class="text">
+    <a class="sitelink" href="javascript:HideAllShowOne('map');">Site Map</a>
+    <a class="sitelink" href="javascript:HideAllShowOne('bib');">Bibliography</a></p>
     </div>
 </div>
-<div id="map"><p class="subtitle">/*Image of site map*/</p></div>
-<div id="bib"><p class="subtitle">/*Bibliography*/</p></div>
+<div id="map" class="section"><p class="text">Site Map</p></div>
+<div id="bib" class="section"><p class="text">Bibliography</p></div>
+
+<div id="footer"></div>
 </body>
 
 </html>

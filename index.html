@@ -19,7 +19,7 @@ else { document.getElementById(d).style.display = "none"; }
 }
 function HideAllShowOne(d) {
 // Between the quotation marks, list the id values of each div.
-var IDvaluesOfEachDiv = "cs pr12 apcomp pltw ddp cim de edd mc e1 e4 e11 e16 bre cas cow kry sau ves";
+var IDvaluesOfEachDiv = "cs pr12 apcomp pltw ddp cim de edd mc e1 e4 e11 e16 bre cas cow kry sau ves bib map";
 //-------------------------------------------------------------
 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
@@ -155,8 +155,8 @@ Ithaca High School offers several courses relating to the production of media of
 <div id="about">
     <span class="about">About:</span>
     <div id="sitelinks" class="text">
-    <a class="sitelink" href="#map">Site Map</a>
-    <a class="sitelink" href="#bib">Bibliography</a></p>
+    <a class="sitelink" href="javascript:HideAllShowOne('map');">Site Map</a>
+    <a class="sitelink" href="javascript:HideAllShowOne('bib');">Bibliography</a></p>
     </div>
 </div>
 <div id="map" class="section"><p class="text">Site Map</p></div>

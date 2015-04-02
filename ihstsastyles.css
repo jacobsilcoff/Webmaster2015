@@ -53,7 +53,11 @@ body{
     margin-bottom: 0px;
 }
 .title{
+<<<<<<< HEAD
     font-size: 40px;
+=======
+    font-size: 60px;
+>>>>>>> parent of ebc4b14... fed
     font-weight: heavy;
     margin: 0px;
     color: gray;
@@ -84,34 +88,28 @@ body{
     overflow-y: auto;
     text-align: center;
     align-items: center;
+    min-height: 600px;
     z-index: 0;
 }
 #intro{
+    background-image: url("techbackground.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto 500px;
     height: 90vh;
+<<<<<<< HEAD
     max-height: 550px;
+=======
+    max-height: 600px;
+>>>>>>> parent of ebc4b14... fed
 }
 #act{
-	background-image: url("plaques.JPG");
-    background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 600px;
 }
 #fun{
-	background-image: url("fun.png");
-    background-repeat: no-repeat;
-	background-size: cover;
-	background-position: left middle;
-	    min-height: 600px;
 }
 #lea{
-	background-image: url("officers.JPG");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: left middle;
-	min-height: 600px;
 }
 #leainfo{
-    min-height: 600px;
 }
 #about{
     background-color: rgb(64,64,64);
@@ -125,9 +123,6 @@ body{
     background-color: white;
     background-position: center;
     height: 763px;
-}
-#bib{
-    min-height: 600px;
 }
 #footer{
 	height: 1px;
@@ -273,7 +268,4 @@ br{
 .menu-wrap a
 {
     text-decoration: none;
-}
-hr{
-background-color: red;
 }

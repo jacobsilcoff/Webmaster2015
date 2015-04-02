@@ -20,7 +20,6 @@ body{
     width: 80%;
     height: 120px;
     padding-left: 10%;
-    padding-right: 10%;
     z-index: 1;
 }
 #filler{
@@ -60,21 +59,20 @@ body{
     margin-bottom: 0px;
 }
 .title{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: heavy;
     margin: 0px;
     color: gray;
 }
 .sitelink{
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 35px;
     height: 50px;
     text-decoration: none;
     color: rgb(94,171,0);
 }
 .sitelink:hover{
     display: inline-block;
-    margin-right: 50px;
     height: 50px;
     background-image: url("linkgreen.png");
     background-repeat: no-repeat;
@@ -122,6 +120,9 @@ body{
     background-position: center;
     height: 763px;
 }
+#bib{
+background-color: white;
+}
 /*Assorted Styles*/
 br{
     color: rgb(40,40,40);
@@ -147,6 +148,7 @@ br{
     text-align: center;
     font-size: 24px;
     line-height: 36px;
+    color: black;
 }
 .bodylink{
     color: rgb(94,171,0);
@@ -257,4 +259,7 @@ br{
     font-size: 60px;
     vertical-align: middle;
     font-family: 'Zapf Dingbats';
+}
+#cmap1, #cmap2, #cmap3, #cmap4, #cmap5, #sol1, #pmap1, #pmap2, #pmap3, #pmap4, #pmap5, #psol1, #bmap1, #bcmap2, #bpmap2, #bbmap2, #brmap2, #bamap2, #bclmap2, #bcemap2, #bplmap2, #bpemap2, #bblmap2, #bbemap2, #brlmap2, #bremap2, #balmap2, #baemap2{
+	display: none;
 }

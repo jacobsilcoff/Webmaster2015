@@ -53,7 +53,7 @@ body{
     margin-bottom: 0px;
 }
 .title{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: heavy;
     margin: 0px;
     color: gray;
@@ -88,7 +88,7 @@ body{
 }
 #intro{
     height: 90vh;
-    max-height: 500px;
+    max-height: 550px;
 }
 #act{
 	background-image: url("plaques.JPG");

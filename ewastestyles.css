@@ -5,7 +5,7 @@ body{
     height: 100%;
     margin: auto;
 }
-.background{
+/*.background{
     position: fixed;
     background-image: url("ewastec1.png");
     background-repeat: repeat;
@@ -13,7 +13,7 @@ body{
     height: 100%;
     width: 100%;
     z-index: -10;
-}
+}*/
 /*Menu*/
 #menu{
     position: absolute;
@@ -92,13 +92,13 @@ body{
     z-index: 0;
 }
 #intro{
-    background-image: url("background.jpg");
+   /* background-image: url("background.jpg");*/
     background-repeat: repeat-x;
     height: 90vh;
     max-height: 600px;
 }
 #wastes{
-    background-image: url("tech.png");
+   /* background-image: url("tech.png");*/
 }
 #probinfo{
     display: none;

@@ -90,11 +90,7 @@ body{
     width: 100%;
 }
 #map{
-    background-image: url("map.png");
-    background-repeat: no-repeat;
     background-color: white;
-    background-position: center;
-    height: 763px;
 }
 #bib{
 background-color: white;
@@ -107,6 +103,7 @@ br{
 }
 .subtitle{
     text-align: center;
+    display: inline;
     font-size: 30px;
     line-height: 36px;
 }
@@ -114,11 +111,6 @@ br{
     text-align: justify;
     font-size: 24px;
     line-height: 36px;
-}
-.smalltext{
-    text-align: justify;
-    font-size: 18px;
-    line-height: 24px;
 }
 .centertext{
     text-align: center;
@@ -223,19 +215,4 @@ br{
     background-repeat: no-repeat;
     height: 300px;
     width: 216px;
-}
-.arrow{
-    display: inline-block;
-    margin-top: ;
-   -webkit-transform: rotate(-90deg);
-   -ms-transform: rotate(-90deg);
-   -mz-transform: rotate(-90deg);
-   -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    font-size: 60px;
-    vertical-align: middle;
-    font-family: 'Zapf Dingbats';
-}
-#cmap1, #cmap2, #cmap3, #cmap4, #cmap5, #sol1, #pmap1, #pmap2, #pmap3, #pmap4, #pmap5, #psol1, #bmap1, #bcmap2, #bpmap2, #bbmap2, #brmap2, #bamap2, #bclmap2, #bcemap2, #bplmap2, #bpemap2, #bblmap2, #bbemap2, #brlmap2, #bremap2, #balmap2, #baemap2{
-	display: none;
 }

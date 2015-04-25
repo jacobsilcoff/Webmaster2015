@@ -65,7 +65,7 @@ body{
     z-index: 0;
 }
 #intro{
-    height: 90vh;
+    height: 100vh;
     max-height: 600px;
     text-align: center;
 }

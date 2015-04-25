@@ -82,8 +82,6 @@ body{
     z-index: 0;
 }
 #intro{
-   /* background-image: url("background.jpg");*/
-    background-repeat: repeat-x;
     height: 90vh;
     max-height: 600px;
     text-align: center;
@@ -92,7 +90,7 @@ body{
 	display: inline-block;
 }
 #wastes{
-   /* background-image: url("tech.png");*/
+   background-color: rgb(119,237,182);
 }
 #probinfo{
     display: none;

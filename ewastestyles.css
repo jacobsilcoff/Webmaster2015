@@ -9,7 +9,6 @@ body{
 #othersites{
     margin: auto;
     display: inline-block;
-    height: 115px;
 }
 .othersite{
     position: relative;
@@ -72,6 +71,8 @@ body{
 }
 .title{
 	display: inline-block;
+	margin-top: 7%;
+	margin-bottom: 7%;
 }
 #wastes{
    background-color: rgb(119,237,182);

@@ -22,13 +22,9 @@ body{
     padding-left: 10%;
     z-index: 1;
 }
-#filler{
-    height: 150px;
-}
+
 #othersites{
-    position: absolute;
-    right: 0;
-    top: 0;
+    margin: auto;
     display: inline-block;
     height: 115px;
 }
@@ -51,18 +47,12 @@ body{
     background-size: 200px 5px;
     background-position: center top;
 }
-#title, #sitelinks{
+#sitelinks{
     position: static;
     display: inline-block;
     height: 50px;
     margin-top: 10px;
     margin-bottom: 0px;
-}
-.title{
-    font-size: 40px;
-    font-weight: heavy;
-    margin: 0px;
-    color: gray;
 }
 .sitelink{
     display: inline-block;
@@ -96,6 +86,10 @@ body{
     background-repeat: repeat-x;
     height: 90vh;
     max-height: 600px;
+    text-align: center;
+}
+.title{
+	display: inline-block;
 }
 #wastes{
    /* background-image: url("tech.png");*/

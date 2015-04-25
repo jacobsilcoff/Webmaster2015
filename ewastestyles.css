@@ -31,9 +31,10 @@ body{
     background-position: center top;
 }
 #sitelinks{
-    position: static;
+    position: relative;
     display: inline-block;
     height: 50px;
+    bottom: 0px;
     margin-top: 10px;
     margin-bottom: 0px;
 }

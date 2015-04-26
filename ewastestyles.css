@@ -102,9 +102,11 @@ body{
 #probinfo{
     display: none;
     background-color: white;
+    height: 40%;
 }
 #solutions{
     background-color: rgb(119,237,182);
+    height: 60%;
 }
 #map{
     background-color: white;

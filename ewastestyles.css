@@ -105,6 +105,9 @@ body{
 background-color: white;
 }
 /*Assorted Styles*/
+p{
+	max-width: 80%;
+}
 br{
     color: rgb(40,40,40);
     line-height: 20px;

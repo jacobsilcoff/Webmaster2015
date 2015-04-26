@@ -30,7 +30,8 @@ body{
     background-position: center top;
 }
 #sitelinks{
-    position: relative;
+    position: static;
+    background-color: white;
     display: inline-block;
     height: 50px;
     bottom: 0px;

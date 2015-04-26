@@ -130,6 +130,13 @@ br{
     max-width: 80%;
     display: inline-block;
 }
+.smalltext{
+	text-align: left;
+	font-size: 20px;
+	line-height: 36px;
+	max-width: 80%;
+	display: inline-block;
+}
 .centertext{
     text-align: center;
     font-size: 24px;
@@ -152,74 +159,8 @@ br{
     font-size: 20px;
     text-decoration: none;
 }
-
 .linktext:hover{
     color: rgb(128,194,47);
     text-decoration: none;
     cursor: pointer;
-}
-.about{
-    color: lightgray;
-    font-size: 36px;
-    margin-left: 10%;
-    margin-right: 50px;
-}
-.battery{
-    background-image: url("battery.png");
-    background-size: 60px 165px;
-    background-repeat: no-repeat;
-    background-position: center top; 
-    margin: auto;
-    display: inline-block;
-    height: 300px;
-    width: 216px;
-    text-align: center;
-}
-.battery:hover{
-    background-image: url("battery.png");
-    background-size: 60px 165px;
-    background-repeat: no-repeat;
-    background-position: center top; 
-    display: inline-block;
-    height: 300px;
-    width: 216px;
-}
-#computer{
-	background-image: url("computer.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
-.phone{
-    display: inline-block;
-    background-image: url("phone.png");
-    background-size: 139.5px 165px;
-    background-repeat: no-repeat;
-    margin-right: 30px;
-    height: 300px;
-    width: 216px;
-    text-align: center;
-}
-.phone:hover{
-    background-image: url("phone1.png");
-    background-size: 139.5px 165px;
-    background-repeat: no-repeat;
-    margin-right: 30px;
-    height: 300px;
-    width: 216px;
-}
-.tv{
-    display: inline-block;
-    background-image: url("tv.png");
-    background-size: 216px 165px;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 216px;
-    text-align: center;
-}
-.tv:hover{
-    background-image: url("tv1.png");
-    background-size: 216px 165px;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 216px;
 }

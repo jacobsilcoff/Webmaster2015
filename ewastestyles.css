@@ -92,14 +92,6 @@ body{
 	line-height: 36px;
 	text-align: center;
 }
-#container{
-	height: 100vh;
-	max-height: 876px;
-	width: 100%;
-	overflow-y: auto;
-	text-align: center;
-	z-index: 0;
-}
 #probinfo{
     display: none;
     background-color: white;

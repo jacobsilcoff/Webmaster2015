@@ -65,6 +65,8 @@ body{
     text-align: center;
 }
 .title{
+	width: 70%;
+	max-width: 700px;
 	display: inline-block;
 	margin-top: 7%;
 	margin-bottom: 7%;

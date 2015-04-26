@@ -76,6 +76,17 @@ body{
 #wastes{
    background-color: rgb(119,237,182);
 }
+.tech{
+	display: inline-block;
+	height: 30%;
+	width: calc(75% / 5);
+	min-width: 120px;
+	margin-right: 5%;
+	background-color: white
+	border-style: solid;
+    	border-width: 0px;
+    	border-radius: 20px;
+}
 #probinfo{
     display: none;
     background-color: white;

@@ -57,8 +57,6 @@ body{
 /*Content*/
 .section{
     width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
     overflow-y: auto;
     text-align: center;
     align-items: center;

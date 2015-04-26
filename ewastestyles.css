@@ -185,6 +185,7 @@ br{
 #computer{
 	background-image: url("computer.png");
 	background-repeat: no-repeat;
+	background-size: 100%;
 }
 .phone{
     display: inline-block;

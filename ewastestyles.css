@@ -82,7 +82,7 @@ body{
 	width: calc(75% / 5);
 	min-width: 120px;
 	margin-right: 5%;
-	background-color: white
+	background-color: white;
 	border-style: solid;
     	border-width: 0px;
     	border-radius: 20px;

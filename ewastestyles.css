@@ -16,11 +16,9 @@ body{
     margin-left: 40px;
     margin-right: 10px;
     text-decoration: none;
-    color: rgb(120,110,110);
-    background-image: url("gray.png");
-    background-repeat: no-repeat;
-    background-size: 200px 5px;
-    background-position: center top;
+    color: gray;
+    text-decoration: none;
+    padding-top: 15px;
 }
 .othersite:hover{
     position: relative;

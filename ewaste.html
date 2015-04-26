@@ -6,7 +6,6 @@
 <title>Design Brief</title>
 <link rel="stylesheet" type="text/css" href="ewastestyles.css">
 <script type="text/javascript" language="JavaScript"><!--
-
 function HideContent(d) {
 document.getElementById(d).style.display = "none";
 }
@@ -17,12 +16,9 @@ function ReverseDisplay(d) {
 if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
 else { document.getElementById(d).style.display = "none"; }
 }
-
 function HideAllShowOne(d) {
 // Between the quotation marks, list the id values of each div.
-
 var IDvaluesOfEachDiv = "probinfo";
-
 //-------------------------------------------------------------
 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
@@ -32,7 +28,6 @@ var IDlist = IDvaluesOfEachDiv.split(" ");
 for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
 ShowContent(d);
 }
-
 //--></script>
 </head>
 
@@ -53,38 +48,36 @@ ShowContent(d);
 	<br>
 	<a class="bodylink" href="#wastes">Learn more</a></p>
 </div>
-<div id="wastes" class="section">
-	<p class="text">
-		<br>
-		When it's thrown away, nearly any modern electrical appliance becomes ewaste and cause lots of environmental harm.</p>
+<div id="wastes" class="section" class="text">
+	<p class="text">When it's thrown away, nearly any modern electrical appliance becomes ewaste and cause lots of environmental harm.</p>
 	<br>
-	<div id="battery" class="tech text">
+	<div id="battery" class="tech">
 		<a class="bodylink" href="#wbat">What are these?</a>
 		<a class="bodylink" href="#pbat">Harms</a>
 		<a class="bodylink" href="#sbat">Disposal</a>
 	</div>
-	<div id="camera" class="tech text">
+	<div id="camera" class="tech">
 		<a class="bodylink" href="#wbat">What are these?</a>
 		<a class="bodylink" href="#pbat">Harms</a>
 		<a class="bodylink" href="#sbat">Disposal</a>
 	</div>
-	<div id="cellphone" class="tech text">
+	<div id="cellphone" class="tech">
 		<a class="bodylink" href="#wbat">What are these?</a>
 		<a class="bodylink" href="#pbat">Harms</a>
 		<a class="bodylink" href="#sbat">Disposal</a>
 	</div>
-	<div id="computer" class="tech text">
+	<div id="computer" class="tech">
 		<a class="bodylink" href="#wbat">What are these?</a>
 		<a class="bodylink" href="#pbat">Harms</a>
 		<a class="bodylink" href="#sbat">Disposal</a>
 	</div>
-	<div id="television" class="tech text">
+	<div id="television" class="tech">
 		<a class="bodylink" href="#wbat">What are these?</a>
 		<a class="bodylink" href="#pbat">Harms</a>
 		<a class="bodylink" href="#sbat">Disposal</a>
 	</div>
 	<br>
-	<div id="sitelinks" class="text"  class="text">
+	<div id="sitelinks" class="text">
 		<a class="sitelink" href="#problems">Incorrect Disposal</a> 
 		<a class="sitelink" href="#solutions">Correct Disposal</a>
 		<a class="sitelink" href="#about">About</a>

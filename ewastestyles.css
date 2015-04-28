@@ -159,3 +159,8 @@ br{
     text-decoration: none;
     cursor: pointer;
 }
+.battery{
+	background-image: url("battery.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}

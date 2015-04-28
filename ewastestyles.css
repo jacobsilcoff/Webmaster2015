@@ -73,7 +73,7 @@ body{
 }
 #wastes{
 	height: calc(100% - 50px);
-	background-color: rgb(119,237,182);
+	background-color: rgb(64,164,164);
 }
 .tech{
 	display: inline-block;
@@ -97,7 +97,7 @@ body{
     background-color: white;
 }
 #solutions{
-    background-color: rgb(119,237,182);
+    background-color: rgb(64,164,164);
 }
 #map{
     background-color: white;

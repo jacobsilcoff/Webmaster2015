@@ -64,7 +64,7 @@ body{
 #intro{
     height: 100vh;
     text-align: center;
-    background-color: rgb(64,64,64);
+    background-color: white;
 }
 .title{
 	width: 70%;

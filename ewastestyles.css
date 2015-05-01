@@ -74,7 +74,9 @@ body{
 }
 #wastes{
 	height: calc(100% - 50px);
-	background-color: rgb(64,164,164);
+	width: 100%;
+	padding: 0%;
+	margin: 0%;
 }
 .tech{
 	display: inline-block;
@@ -83,7 +85,7 @@ body{
 	max-height: 90vh;
 	width: 20%;
 	min-width: 200px;
-	margin-bottom: 2%;
+	margin: 0%;
 	font-size: 22px;
 	line-height: 36px;
 	text-align: center;

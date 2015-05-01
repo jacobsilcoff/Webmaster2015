@@ -160,7 +160,17 @@ br{
     cursor: pointer;
 }
 #battery{
-	background-image: url("battery.png");
-	background-size: contain;
-	background-repeat: no-repeat;
+	background-color: rgb(8,54,67);
+}
+#camera{
+	background-color: rgb(184,236,215);
+}
+#cellphone{
+	background-color: rgb(71,108,94);
+}
+#computer{
+	background-color: rgb(206,240,157);
+}
+#television{
+	background-color: rgb(174,224,1);
 }

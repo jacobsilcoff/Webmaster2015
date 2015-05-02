@@ -79,22 +79,15 @@ body{
 }
 /*Content*/
 .section{
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 100%;
     overflow-y: auto;
     text-align: center;
-    align-items: center;
-    min-height: 600px;
     z-index: 0;
 }
 #intro{
-    background-image: url("techbackground.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: auto 500px;
-    height: 90vh;
-    max-height: 600px;
+    height: 100vh;
+    text-align: center;
+    background-color: white;
 }
 #courses{
     min-height: 400px;

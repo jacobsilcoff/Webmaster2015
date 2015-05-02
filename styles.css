@@ -57,7 +57,7 @@ body{
 /*Content*/
 .section{
     width: 100%;
-        min-height: 400px;
+        min-height: 600px;
     overflow-y: auto;
     text-align: center;
     z-index: 0;

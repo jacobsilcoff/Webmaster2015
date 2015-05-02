@@ -50,6 +50,28 @@ IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/  +/g," ");
 var IDlist = IDvaluesOfEachDiv.split(" ");
 for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
 ShowContent(d);
+
+function HideContent(d) {
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+document.getElementById(d).style.display = "block";
+}
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+function des(d) {
+// Between the quotation marks, list the id values of each div.
+var IDvaluesOfEachDiv = "bdes cades cedes codes tdes";
+//-------------------------------------------------------------
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/\s*$/,"");
+IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/  +/g," ");
+var IDlist = IDvaluesOfEachDiv.split(" ");
+for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
+ShowContent(d);
 }
 //--></script>
 </head>
@@ -75,7 +97,7 @@ ShowContent(d);
 <div id="wastes" class="section" class="subtitle">
 	<div id="battery" class="tech">
 		<br>
-		<a class="bodylink" href="#wbat">What are these?</a>
+		<a class="bodylink" href="javascript:des('bdes');">What are these?</a>
 		<br>
 		<a class="bodylink" href="javascript:prob('bprob');">Dangers</a>
 		<br>
@@ -83,7 +105,7 @@ ShowContent(d);
 	</div>
 	<div id="camera" class="tech">
 		<br>
-		<a class="bodylink" href="#wbat">What are these?</a>
+		<a class="bodylink" href="javascript:des('cades');">What are these?</a>		
 		<br>
 		<a class="bodylink" href="javascript:prob('caprob');">Dangers</a>
 		<br>
@@ -91,7 +113,7 @@ ShowContent(d);
 	</div>
 	<div id="cellphone" class="tech">
 		<br>
-		<a class="bodylink" >What are these?</a>
+		<a class="bodylink" href="javascript:des('cedes');">What are these?</a>		
 		<br>
 		<a class="bodylink" href="javascript:prob('ceprob');">Dangers</a>
 		<br>
@@ -99,7 +121,7 @@ ShowContent(d);
 	</div>
 	<div id="computer" class="tech">
 		<br>
-		<a class="bodylink" href="#wbat">What are these?</a>
+		<a class="bodylink" href="javascript:des('codes');">What are these?</a>	
 		<br>
 		<a class="bodylink" href="javascript:prob('coprob');">Dangers</a>
 		<br>
@@ -107,13 +129,23 @@ ShowContent(d);
 	</div>
 	<div id="television" class="tech">
 		<br>
-		<a class="bodylink" href="#wbat">What are these?</a>
+		<a class="bodylink" href="javascript:des('tdes');">What are these?</a>		
 		<br>
 		<a class="bodylink" href="javascript:prob('tprob');">Dangers</a>
 		<br>
 		<a class="bodylink" href="javascript:sol('tsol');">Disposal</a>
 	</div>
 </div>
+
+<div class="section" id="bdes"></div>
+
+<div class="section" id="cades"></div>
+
+<div class="section" id="cedes"></div>
+
+<div class="section" id="codes"></div>
+
+<div class="section" id="tdes"></div>
 
 <div id="problems" class="section">
 	<p class="smalltext">To many Americans, e-waste simply ceases to exist once it is thrown away. However, the way the technology is disposed of is important, as it can sometimes end up in a landfill or simply littered.</p>

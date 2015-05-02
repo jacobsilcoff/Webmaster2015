@@ -111,11 +111,6 @@ br{
     line-height: 20px;
     height: 20px;
 }
-.subtitle{
-    text-align: center;
-    font-size: 30px;
-    line-height: 36px;
-}
 .text{
     text-align: justify;
     font-size: 24px;
@@ -126,7 +121,7 @@ br{
     font-size: 18px;
     line-height: 24px;
 }
-.centertext{
+.subtitle{
     text-align: center;
     font-size: 24px;
     line-height: 36px;
@@ -151,24 +146,6 @@ br{
     color: rgb(47,128,243);
     text-decoration: none;
     cursor: pointer;
-}
-.about{
-    color: lightgray;
-    font-size: 36px;
-    margin-left: 10%;
-    margin-right: 50px;
-}
-.arrow{
-    display: inline-block;
-    margin-top: ;
-   -webkit-transform: rotate(-90deg);
-   -ms-transform: rotate(-90deg);
-   -mz-transform: rotate(-90deg);
-   -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    font-size: 60px;
-    vertical-align: middle;
-    font-family: 'Zapf Dingbats';
 }
 /*JS Stuff*/
 #cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc, #e1, #e4, #e11, #e16, #bre, #cas, #cow, #kry, #sau, #ves, #bib, #map{

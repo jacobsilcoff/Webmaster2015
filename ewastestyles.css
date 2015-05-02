@@ -81,11 +81,11 @@ body{
 }
 .tech{
 	display: inline-block;
-	min-height: 300px;
-	height: 90vh;
-	width: 20%;
-	margin-left: -1%;
-	margin-right: -1%;
+	width: 200px;
+	border-style: solid;
+	border-radius: 100px;
+	border-width: 20px;
+	border-color: white;
 	font-size: 22px;
 	line-height: 36px;
 	text-align: center;

@@ -79,12 +79,6 @@ body{
 }
 #contact{
 }
-#about{
-    background-color: rgb(64,64,64);
-    position: static;
-    height: 60px;
-    width: 100%;
-}
 #map{
     background-image: url("");
     background-repeat: no-repeat;

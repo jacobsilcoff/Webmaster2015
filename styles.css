@@ -21,11 +21,8 @@ body{
     height: 150px;
 }
 #othersites{
-    position: absolute;
-    right: 0;
-    top: 0;
+    margin: auto;
     display: inline-block;
-    height: 115px;
 }
 .othersite{
     position: relative;
@@ -88,6 +85,13 @@ body{
     height: 100vh;
     text-align: center;
     background-color: white;
+}
+.title{
+	width: 70%;
+	max-width: 700px;
+	display: inline-block;
+	margin-top: 7%;
+	margin-bottom: 7%;
 }
 #courses{
     min-height: 400px;

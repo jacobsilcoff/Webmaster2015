@@ -5,13 +5,6 @@ body{
     height: 100%;
     margin: auto;
 }
-/*Menu*/
-#menu{
-    width: 80%;
-    height: 120px;
-    padding-left: 10%;
-    padding-right: 10%;
-}
 #othersites{
     margin: auto;
     display: inline-block;

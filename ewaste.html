@@ -16,9 +16,9 @@ function ReverseDisplay(d) {
 if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
 else { document.getElementById(d).style.display = "none"; }
 }
-function hasoA(d) {
+function prob(d) {
 // Between the quotation marks, list the id values of each div.
-var IDvaluesOfEachDiv = "probinfo";
+var IDvaluesOfEachDiv = "bprob caprob ceprob coprob tprob problems";
 //-------------------------------------------------------------
 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
@@ -39,9 +39,9 @@ function ReverseDisplay(d) {
 if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
 else { document.getElementById(d).style.display = "none"; }
 }
-function hasoB(d) {
+function sol(d) {
 // Between the quotation marks, list the id values of each div.
-var IDvaluesOfEachDiv = "probinfo";
+var IDvaluesOfEachDiv = "bsol solutions casol cesol cosol tsol";
 //-------------------------------------------------------------
 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
@@ -77,41 +77,41 @@ ShowContent(d);
 		<br>
 		<a class="bodylink" href="#wbat">What are these?</a>
 		<br>
-		<a class="bodylink" href="#pbat">Harms</a>
+		<a class="bodylink" href="javascript:prob('bprob');">Dangers</a>
 		<br>
-		<a class="bodylink" href="#sbat">Disposal</a>
+		<a class="bodylink" href="javascript:sol('bsol');">Disposal</a>
 	</div>
 	<div id="camera" class="tech">
 		<br>
 		<a class="bodylink" href="#wbat">What are these?</a>
 		<br>
-		<a class="bodylink" href="#pbat">Harms</a>
+		<a class="bodylink" href="javascript:prob('caprob');">Dangers</a>
 		<br>
-		<a class="bodylink" href="#sbat">Disposal</a>
+		<a class="bodylink" href="javascript:sol('casol');">Disposal</a>
 	</div>
 	<div id="cellphone" class="tech">
 		<br>
-		<a class="bodylink" href="#wbat">What are these?</a>
+		<a class="bodylink" >What are these?</a>
 		<br>
-		<a class="bodylink" href="#pbat">Harms</a>
+		<a class="bodylink" href="javascript:prob('ceprob');">Dangers</a>
 		<br>
-		<a class="bodylink" href="#sbat">Disposal</a>
+		<a class="bodylink" href="javascript:sol('cesol');">Disposal</a>
 	</div>
 	<div id="computer" class="tech">
 		<br>
 		<a class="bodylink" href="#wbat">What are these?</a>
 		<br>
-		<a class="bodylink" href="#pbat">Harms</a>
+		<a class="bodylink" href="javascript:prob('coprob');">Dangers</a>
 		<br>
-		<a class="bodylink" href="#sbat">Disposal</a>
+		<a class="bodylink" href="javascript:sol('cosol');">Disposal</a>
 	</div>
 	<div id="television" class="tech">
 		<br>
 		<a class="bodylink" href="#wbat">What are these?</a>
 		<br>
-		<a class="bodylink" href="#pbat">Harms</a>
+		<a class="bodylink" href="javascript:prob('tprob');">Dangers</a>
 		<br>
-		<a class="bodylink" href="#sbat">Disposal</a>
+		<a class="bodylink" href="javascript:sol('tsol');">Disposal</a>
 	</div>
 </div>
 

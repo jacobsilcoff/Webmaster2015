@@ -57,6 +57,7 @@ body{
 /*Content*/
 .section{
     width: 100%;
+        min-height: 400px;
     overflow-y: auto;
     text-align: center;
     z-index: 0;
@@ -74,7 +75,6 @@ body{
 	margin-bottom: 7%;
 }
 #courses{
-    min-height: 400px;
 }
 #labs{
 }
@@ -86,11 +86,6 @@ body{
     background-color: white;
     background-position: center;
     height: 763px;
-}
-#footer{
-	height: 1px;
-	width: 100%;
-	background-color: gray
 }
 /*Assorted Styles*/
 br{

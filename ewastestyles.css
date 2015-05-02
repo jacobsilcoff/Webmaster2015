@@ -62,7 +62,7 @@ body{
     z-index: 0;
 }
 #intro{
-    height: calc(100vh - 20px);
+    height: 100vh;
     text-align: center;
     background-color: white;
 }

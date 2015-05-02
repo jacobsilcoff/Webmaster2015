@@ -89,6 +89,7 @@ body{
 	font-size: 22px;
 	line-height: 36px;
 	text-align: center;
+	vertical-align: middle;
 }
 #probinfo{
     display: none;

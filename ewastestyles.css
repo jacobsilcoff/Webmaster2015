@@ -82,7 +82,7 @@ body{
 .tech{
 	display: inline-block;
 	width: 200px;
-	height: 200px;
+	min-height: 200px;
 	border-style: solid;
 	border-radius: 120px;
 	border-width: 20px;

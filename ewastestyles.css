@@ -154,20 +154,27 @@ br{
     text-decoration: none;
     cursor: pointer;
 }
-#battery{
+#battery, #bdes, #bprob, #bsol{
 	border-color: rgb(8,54,67);
 }
-#camera{
+#camera, #cades, #caprob, #casol{
 	border-color: rgb(184,236,215);
 }
-#cellphone{
+#cellphone, #cedes, #ceprob, #cesol{
 	border-color: rgb(71,108,94);
 }
-#computer{
+#computer, #codes, #coprob, #cosol{
 	border-color: rgb(206,240,157);
 }
-#television{
+#television, #tdes, #tprob, #tsol{
 	border-color: rgb(174,224,1);
+}
+.border{
+	border-style: solid;
+	border-top: 20px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
 }
 #bprob, #caprob, #ceprob, #coprob, #tprob, #bsol, #casol, #cesol, #cosol, #tsol, #bdes, #cades, #cedes, #codes, #tdes, #bib, #map{
 	display: none;

@@ -95,8 +95,9 @@ body{
     display: none;
     background-color: white;
 }
-#solutions{
-    background-color: rgb(64,164,164);
+#solutions, #problems{
+    background-color: white;
+    height: 50%;
 }
 #map{
     background-color: white;

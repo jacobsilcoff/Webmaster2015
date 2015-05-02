@@ -91,10 +91,6 @@ body{
 	text-align: center;
 	vertical-align: middle;
 }
-#probinfo{
-    display: none;
-    background-color: white;
-}
 #solutions, #problems{
     background-color: white;
     height: 50%;
@@ -172,4 +168,7 @@ br{
 }
 #television{
 	border-color: rgb(174,224,1);
+}
+#problems, #solutions, #bprob, #caprob, #ceprob, #coprob, #tprob, #bsol, #casol, #cesol, #cosol, #tsol{
+	display: none;
 }

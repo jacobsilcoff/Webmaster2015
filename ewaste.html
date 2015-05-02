@@ -50,6 +50,7 @@ IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/  +/g," ");
 var IDlist = IDvaluesOfEachDiv.split(" ");
 for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
 ShowContent(d);
+}
 
 function HideContent(d) {
 document.getElementById(d).style.display = "none";

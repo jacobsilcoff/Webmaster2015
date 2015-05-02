@@ -82,10 +82,10 @@ body{
 .tech{
 	display: inline-block;
 	width: 200px;
+	height: 200px;
 	border-style: solid;
 	border-radius: 100px;
 	border-width: 20px;
-	border-color: white;
 	font-size: 22px;
 	line-height: 36px;
 	text-align: center;
@@ -157,17 +157,17 @@ br{
     cursor: pointer;
 }
 #battery{
-	background-color: rgb(8,54,67);
+	border-color: rgb(8,54,67);
 }
 #camera{
-	background-color: rgb(184,236,215);
+	border-color: rgb(184,236,215);
 }
 #cellphone{
-	background-color: rgb(71,108,94);
+	border-color: rgb(71,108,94);
 }
 #computer{
-	background-color: rgb(206,240,157);
+	border-color: rgb(206,240,157);
 }
 #television{
-	background-color: rgb(174,224,1);
+	border-color: rgb(174,224,1);
 }

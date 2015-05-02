@@ -7,18 +7,11 @@ body{
 }
 /*Menu*/
 #menu{
-    background-image: url("techlogo.png");
-    background-repeat: no-repeat;
-    background-size: 200px 100px;
     position: absolute;
     width: 80%;
     height: 120px;
     padding-left: 10%;
     padding-right: 10%;
-    z-index: 1;
-}
-#filler{
-    height: 150px;
 }
 #othersites{
     margin: auto;
@@ -43,18 +36,12 @@ body{
     background-size: 200px 5px;
     background-position: center top;
 }
-#title, #sitelinks{
+#sitelinks{
     position: static;
     display: inline-block;
     height: 50px;
     margin-top: 10px;
     margin-bottom: 0px;
-}
-.title{
-    font-size: 60px;
-    font-weight: heavy;
-    margin: 0px;
-    color: gray;
 }
 .sitelink{
     display: inline-block;

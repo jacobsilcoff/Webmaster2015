@@ -169,6 +169,6 @@ br{
 #television{
 	border-color: rgb(174,224,1);
 }
-#bprob, #caprob, #ceprob, #coprob, #tprob, #bsol, #casol, #cesol, #cosol, #tsol{
+#bprob, #caprob, #ceprob, #coprob, #tprob, #bsol, #casol, #cesol, #cosol, #tsol, #bdes, #cades, #cedes, #codes, #tdes{
 	display: none;
 }

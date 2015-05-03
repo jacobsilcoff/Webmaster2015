@@ -85,7 +85,8 @@ body{
 }
 #wastes{
 	width: 100%;
-	padding: 0%;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	margin: 0%;
 }
 .tech{

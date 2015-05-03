@@ -66,10 +66,15 @@ body{
 	border-right: 0px;
 	border-bottom: 0px;
 }
-#intro{
+#pane1{
     height: 100vh;
     text-align: center;
     background-color: white;
+}
+#pane2{
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(200,200,200);
 }
 .title{
 	width: 70%;

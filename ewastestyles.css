@@ -35,7 +35,7 @@ body{
     height: 50px;
     text-align: center;
     z-index: 0;
-    background-color: white;
+    background-color: rgb(230,230,230);
 }
 .sitelink{
     display: inline-block;
@@ -74,7 +74,7 @@ body{
 #pane2{
     height: calc(100vh - 400px);
     text-align: center;
-    background-color: rgb(200,200,200);
+    background-color: rgb(230,230,230);
 }
 .title{
 	width: 70%;

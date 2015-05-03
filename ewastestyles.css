@@ -1,11 +1,8 @@
 body{
-    margin: 0;
     font-family: "Sans Pro", sans-serif;
     font-weight: lighter;
-    height: 100%;
     margin: auto;
 }
-
 #othersites{
     margin: auto;
     display: inline-block;
@@ -41,6 +38,8 @@ body{
     margin-right: 35px;
     text-decoration: none;
     color: rgb(94,171,0);
+    font-size: 24px;
+    line-height: 36px;
 }
 .sitelink:hover{
     display: inline-block;

@@ -68,7 +68,6 @@ body{
     background-color: white;
 }
 #pane2{
-    height: calc(100vh - 400px);
     text-align: center;
     background-color: rgb(230,230,230);
 }

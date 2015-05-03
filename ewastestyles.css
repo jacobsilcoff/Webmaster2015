@@ -79,7 +79,6 @@ body{
 	margin-bottom: 7%;
 }
 #wastes{
-	height: calc(100% - 50px);
 	width: 100%;
 	padding: 0%;
 	margin: 0%;
@@ -98,7 +97,7 @@ body{
 }
 #solutions, #problems{
     background-color: white;
-    height: 50%;
+    height: 50vh;
 }
 #map{
     background-color: white;

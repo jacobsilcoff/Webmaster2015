@@ -67,7 +67,7 @@ body{
 	border-bottom: 0px;
 }
 #pane1{
-    height: calc(100vh - 50px);
+    height: calc(100vh - 20px);
     text-align: center;
     background-color: white;
 }

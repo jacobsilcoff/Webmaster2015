@@ -32,7 +32,6 @@ body{
 #sitelinks{
 	display: block;
     width: 100vw;
-    height: 50px;
     text-align: center;
     z-index: 0;
     background-color: rgb(230,230,230);
@@ -40,13 +39,11 @@ body{
 .sitelink{
     display: inline-block;
     margin-right: 35px;
-    height: 50px;
     text-decoration: none;
     color: rgb(94,171,0);
 }
 .sitelink:hover{
     display: inline-block;
-    height: 50px;
     background-image: url("linkgreen.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;

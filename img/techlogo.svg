@@ -89,6 +89,16 @@
          style="fill:#961720;fill-opacity:1" />
     </g>
     <text
+       x="981.88037"
+       y="788.48792"
+       id="text4419"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#961720;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="981.88037"
+         y="788.48792"
+         id="tspan4421"
+         style="font-size:105px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#961720;fill-opacity:1;font-family:Impact;-inkscape-font-specification:Impact">IHS</tspan></text>
+    <text
        x="1041.7257"
        y="838.31873"
        id="text4109"
@@ -100,15 +110,5 @@
          style="font-size:82.97579956px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact">Tech<tspan
    id="tspan4118"
    style="font-size:25.92993736px">dept.</tspan></tspan></text>
-    <text
-       x="981.88037"
-       y="788.48792"
-       id="text4419"
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#961720;fill-opacity:1;stroke:none;font-family:Sans"><tspan
-         x="981.88037"
-         y="788.48792"
-         id="tspan4421"
-         style="font-size:105px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#961720;fill-opacity:1;font-family:Impact;-inkscape-font-specification:Impact">IHS</tspan></text>
   </g>
 </svg>

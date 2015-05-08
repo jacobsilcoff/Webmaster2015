@@ -5,25 +5,10 @@
 <meta charset="UTF-8">
 <title>IHSTSA</title>
 <link rel="stylesheet" type="text/css" href="ihstsastyles.css">
+<script type="text/javascript" src="script.js"></script>
 <script type="text/javascript"><!--
 <!--
-function HideContent(d) {
-document.getElementById(d).style.display = "none";
-}
-function ShowContent(d) {
-document.getElementById(d).style.display = "block";
-}
-function ReverseDisplay(d) {
-if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
-else { document.getElementById(d).style.display = "none"; }
-}
-function HideAllShowOne(d) {
-// Between the quotation marks, list the id values of each div.
-var IDlist = "cat co2 vg ch cr leainfo".split(" ");
-//-------------------------------------------------------------
-for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
-ShowContent(d);
-}
+var HideAllShowOne = gen_switch("cat co2 vg ch cr leainfo")
 //-->
 </script>
 

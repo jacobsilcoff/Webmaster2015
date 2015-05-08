@@ -5,78 +5,14 @@
 <meta charset="UTF-8">
 <title>Design Brief</title>
 <link rel="stylesheet" type="text/css" href="ewastestyles.css">
+<script type="text/javascript" src="script.js"></script>
 <script type="text/javascript" language="JavaScript"><!--
-function HideContent(d) {
-document.getElementById(d).style.display = "none";
-}
-function ShowContent(d) {
-document.getElementById(d).style.display = "block";
-}
-function ReverseDisplay(d) {
-if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
-else { document.getElementById(d).style.display = "none"; }
-}
-function prob(d) {
-// Between the quotation marks, list the id values of each div.
-var IDlist = "bprob caprob ceprob coprob tprob problems".split(" ");
-//-------------------------------------------------------------
-for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
-ShowContent(d);
-}
 
-function sol(d) {
-// Between the quotation marks, list the id values of each div.
-var IDlist = "bsol solutions casol cesol cosol tsol";
-//-------------------------------------------------------------
-for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
-ShowContent(d);
-}
+var prob = gen_switch("bprob caprob ceprob coprob tprob problems")
+var sol = gen_switch("bsol solutions casol cesol cosol tsol")
+var des = gen_switch("bdes cades cedes codes tdes")
+var bottom = gen_switch("bib map")
 
-function HideContent(d) {
-document.getElementById(d).style.display = "none";
-}
-function ShowContent(d) {
-document.getElementById(d).style.display = "block";
-}
-function ReverseDisplay(d) {
-if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
-else { document.getElementById(d).style.display = "none"; }
-}
-function des(d) {
-// Between the quotation marks, list the id values of each div.
-var IDvaluesOfEachDiv = "bdes cades cedes codes tdes";
-//-------------------------------------------------------------
-IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
-IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
-IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/\s*$/,"");
-IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/  +/g," ");
-var IDlist = IDvaluesOfEachDiv.split(" ");
-for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
-ShowContent(d);
-}
-
-function HideContent(d) {
-document.getElementById(d).style.display = "none";
-}
-function ShowContent(d) {
-document.getElementById(d).style.display = "block";
-}
-function ReverseDisplay(d) {
-if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
-else { document.getElementById(d).style.display = "none"; }
-}
-function bottom(d) {
-// Between the quotation marks, list the id values of each div.
-var IDvaluesOfEachDiv = "bib map";
-//-------------------------------------------------------------
-IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s"']/g," ");
-IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,"");
-IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/\s*$/,"");
-IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/  +/g," ");
-var IDlist = IDvaluesOfEachDiv.split(" ");
-for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
-ShowContent(d);
-}
 //--></script>
 </head>
 

@@ -7,7 +7,7 @@ body{
 }
 /*Menu*/
 #menu{
-    background-image: url("ihstsa.png");
+    background-image: url("img/ihstsa.png");
     background-repeat: no-repeat;
     position: absolute;
     width: 80%;
@@ -40,7 +40,7 @@ body{
     position: relative;
     text-decoration: none;
     color: rgb(120,110,110);
-    background-image: url("gray.png");
+    background-image: url("img/gray.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
     background-position: center top;
@@ -73,7 +73,7 @@ body{
     display: inline-block;
     margin-right: 50px;
     height: 50px;
-    background-image: url("linkblue.png");
+    background-image: url("img/linkblue.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
     background-position: center bottom;
@@ -92,7 +92,7 @@ body{
     z-index: 0;
 }
 #intro{
-    background-image: url("techbackground.png");
+    background-image: url("img/techbackground.png");
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: auto 500px;

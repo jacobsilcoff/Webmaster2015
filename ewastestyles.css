@@ -21,7 +21,7 @@ body{
     position: relative;
     text-decoration: none;
     color: rgb(120,110,110);
-    background-image: url("gray.png");
+    background-image: url("img/gray.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
     background-position: center top;
@@ -43,7 +43,7 @@ body{
 }
 .sitelink:hover{
     display: inline-block;
-    background-image: url("linkgreen.png");
+    background-image: url("img/linkgreen.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
     background-position: center bottom;

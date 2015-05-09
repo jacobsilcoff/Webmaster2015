@@ -64,7 +64,7 @@ body{
     z-index: 0;
 }
 #intro{
-    height: 100vh;
+    height: 100%;
     text-align: center;
     background-color: white;
 }
@@ -72,8 +72,8 @@ body{
 	width: 70%;
 	max-width: 700px;
 	display: inline-block;
-	margin-top: 7%;
-	margin-bottom: 7%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 #courses{
 }

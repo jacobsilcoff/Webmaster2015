@@ -98,6 +98,7 @@ br{
     text-align: justify;
     font-size: 24px;
     line-height: 36px;
+    display: inline-block;
 }
 .smalltext{
     text-align: justify;

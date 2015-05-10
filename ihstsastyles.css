@@ -53,11 +53,7 @@ body{
     margin-bottom: 0px;
 }
 .title{
-<<<<<<< HEAD
-    font-size: 40px;
-=======
     font-size: 60px;
->>>>>>> parent of ebc4b14... fed
     font-weight: heavy;
     margin: 0px;
     color: gray;
@@ -97,11 +93,7 @@ body{
     background-position: right bottom;
     background-size: auto 500px;
     height: 90vh;
-<<<<<<< HEAD
-    max-height: 550px;
-=======
     max-height: 600px;
->>>>>>> parent of ebc4b14... fed
 }
 #act{
 }

@@ -222,5 +222,6 @@ br{
 .subjectLinks
 {
 	border-style: solid none;
-	border-width: 2px;
+	border-width: 1px;
+	border-color: rgb(150,150,150);
 }

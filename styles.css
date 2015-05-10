@@ -218,3 +218,9 @@ br{
 	right: 0px;
 	position: absolute;
 }
+
+.subjectLinks
+{
+	border-style: solid none;
+	border-width: 2px;
+}

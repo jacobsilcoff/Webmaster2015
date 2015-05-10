@@ -208,9 +208,11 @@ br{
 #jacobBandSaw
 {
 	width: 500px;
+	left: 0px;
 }
 
 #freyaComputer
 {
 	width: 500px;
+	right:0px;
 }

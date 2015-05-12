@@ -112,6 +112,7 @@ br{
     text-align: justify;
     font-size: 18px;
     line-height: 24px;
+    display: inline-block;
 }
 .subtitle{
     text-align: center;

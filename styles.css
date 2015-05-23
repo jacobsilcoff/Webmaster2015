@@ -73,7 +73,7 @@ body{
 }
 #intro{
     text-align: center;
-    background-color: white;
+    background-image: url(/img/background.PNG);
 /*    overflow-y: hidden;*/
     min-height: 100vh;
 }

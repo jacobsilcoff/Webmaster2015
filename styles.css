@@ -85,10 +85,16 @@ body{
 	margin-bottom: 2%;
 }
 #courses{
+	background-image: url("img/bottomright.PNG);
+	background size: 100% 100%;
 }
 #labs{
+	background-image: url("img/topleft.PNG);
+	background size: 100% 100%;
 }
 #contact{
+	background-image: url("img/bottomright.PNG);
+	background size: 100% 100%;
 }
 #map{
     background-image: url("");

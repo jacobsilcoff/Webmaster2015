@@ -73,7 +73,7 @@ body{
 }
 #intro{
     text-align: center;
-    background-image: url(/img/background.PNG);
+    background-image: url(img/background.PNG);
 /*    overflow-y: hidden;*/
     min-height: 100vh;
 }
@@ -85,16 +85,19 @@ body{
 	margin-bottom: 2%;
 }
 #courses{
-	background-image: url("img/bottomright.PNG);
+	background-image: url(img/bottomright.PNG);
 	background size: 100% 100%;
+	height: 100%;
 }
 #labs{
-	background-image: url("img/topleft.PNG);
+	background-image: url(img/topleft.PNG);
 	background size: 100% 100%;
+	height: 100%;
 }
 #contact{
-	background-image: url("img/bottomright.PNG);
+	background-image: url(img/bottomright.PNG);
 	background size: 100% 100%;
+	height: 100%;
 }
 #map{
     background-image: url("");

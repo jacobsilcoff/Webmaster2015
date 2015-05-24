@@ -75,7 +75,7 @@ body{
     text-align: center;
     background-image: url(img/background.PNG);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% auto;
 /*    overflow-y: hidden;*/
     min-height: 100vh;
 }
